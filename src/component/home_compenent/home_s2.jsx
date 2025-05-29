@@ -11,8 +11,8 @@ const HomeS2 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
 
     return (
-        <section style={{position:"relative"}}>
-            <div className="home_s2_box container">
+        <section className={"current-container"} style={{position:"relative" , marginTop:"100px" , marginBottom:"100px"}}>
+            <div className="home_s2_box ">
                 <h1>Order a sample <br/> today</h1>
                 <p>Materialize your brand vision with the highest <br/>
                     quality customizable blanks in the industry. Order <br/>

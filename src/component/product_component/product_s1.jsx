@@ -6,7 +6,7 @@ import Product_card from "@/component/product_card/product_card.jsx";
 const ProductS1 = () => {
     return (
         <div style={{paddingTop: "150px"}}>
-            <div className="container-fluid">
+            <div className="current-container">
                 <div className="row">
                     <div className="col-lg-4 p-5 pt-0">
                         <div className="production_s2_content_text">

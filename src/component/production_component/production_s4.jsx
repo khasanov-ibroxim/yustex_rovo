@@ -11,7 +11,7 @@ const ProductionS4 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
 
     return (
-        <section style={{position:"relative"}} className={"container-fluid"}>
+        <section style={{position:"relative"}} className={"current-container"}>
             <div className="home_s2_box"style={{padding:"0 40px"}} >
                 <h1>Get started, explore <br/> our products!</h1>
 

@@ -3,7 +3,7 @@ import "./home_corusel.css"
 
 const HomeCorusel = () => {
     return (
-        <div className="HomeCorusel container">
+        <div className="HomeCorusel current-container">
             <div className="logo_text">Trusted by</div>
             <div className="logos">
 

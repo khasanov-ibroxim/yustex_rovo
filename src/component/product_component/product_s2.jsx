@@ -7,7 +7,7 @@ import {Product_s2_db} from "@/component/product_component/product_db/product_s2
 
 const ProductS2 = () => {
     return (
-        <section className={"container-fluid"}>
+        <section className={"current-container"}>
             <div className="row">
                 <div className="col-lg-8">
                     <ProductCard product={{

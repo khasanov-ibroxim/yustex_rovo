@@ -8,17 +8,20 @@ import Home_s3 from "@/component/home_compenent/home_s3.jsx";
 import Home_s4 from "@/component/home_compenent/home_s4.jsx";
 import Home_header_element from "@/component/home_compenent/home_header_element.jsx";
 import Footer from "@/component/footer/footer.jsx";
+import Footer_form from "@/component/footer_form/footer_form.jsx";
 
 const Home = () => {
     return (
         <div style={{position:"relative" , background:"white" , marginBottom:"100vh" , paddingBottom:"100px"}}>
             <Home_header/>
-            <Home_header_element/>
+            {/*<Home_header_element/>*/}
             <Home_corusel/>
+            <Home_s4 currentStep={4}/>
             <Home_s1/>
             <Home_s2/>
             <Home_s3/>
-            <Home_s4 currentStep={4}/>
+
+            <Footer_form/>
 
         </div>
     );

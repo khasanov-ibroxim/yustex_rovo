@@ -3,6 +3,7 @@ import "./product.css"
 import ProductS1 from "@/component/product_component/product_s1.jsx";
 import ProductS2 from "@/component/product_component/product_s2.jsx";
 import ProductS3 from "@/component/product_component/product_s3.jsx";
+import Footer_form from "@/component/footer_form/footer_form.jsx";
 
 const Product = () => {
     return (

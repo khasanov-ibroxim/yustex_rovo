@@ -4,7 +4,7 @@ import pr_s3_gif from "@/assets/product/product_s3/product_s3_gif.gif"
 const ProductS3 = () => {
     return (
         <section style={{background: "#efefef" , marginBottom:"0 !important" , paddingBottom:"100px"}} >
-            <div className="container pt-5 pb-5">
+            <div className="current-container pt-5 pb-5">
                 <div className="row flex-wrap">
                     <div className="col-lg-5 ">
                         <div className="pr-s3-title">

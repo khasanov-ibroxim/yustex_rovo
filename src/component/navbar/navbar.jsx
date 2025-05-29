@@ -46,7 +46,7 @@ const Navbar = () => {
 
     return (
         <nav className={`navbar ${scrollDirection === 'down' ? 'navbar--hidden' : ''} ${atTop ? 'navbar--transparent' : 'navbar--solid'}`}>
-            <div className={"nav_full_box container-sm"}>
+            <div className={"nav_full_box current-container"}>
                 <div className="nav_top_for_home">
                     <div className="nav_logo">
                         <img src={logo} alt="Logo" />

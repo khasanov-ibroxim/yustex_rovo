@@ -40,7 +40,7 @@ const HomeS3 = () => {
     };
 
     return (
-        <section className="container">
+        <section className={"current-container"}>
             <div className="row">
                 <div className="col-lg-4">
                     <div className="home_s3_left">

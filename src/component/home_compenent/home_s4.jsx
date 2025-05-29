@@ -66,7 +66,7 @@ const HomeS4 = () => {
     };
 
     return (
-        <section className="container" style={{marginTop: "140px" , marginBottom:"100px" }}>
+        <section className="current-container" style={{marginTop: "140px" , marginBottom:"100px" }}>
 
             <div className="home_s1_top_left" style={{marginBottom: "40px"}}>
                 <span>How it works</span>

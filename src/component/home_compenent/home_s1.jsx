@@ -7,7 +7,7 @@ import {Home_s1_db} from "@/component/home_compenent/home_db/home_s1_db.jsx";
 
 const HomeS1 = () => {
     const [showAll, setShowAll] = useState(false);
-    const visibleItems = showAll ? Home_s1_db.slice(0, 20) : Home_s1_db.slice(0, 10);
+    const visibleItems = showAll ? Home_s1_db.slice(0, 20) : Home_s1_db.slice(0, 15);
     const swiperRef_s1 = useRef(null);
 
     const handleHover = (index) => {
@@ -18,7 +18,7 @@ const HomeS1 = () => {
 
     return (
         <section className={"home_s1"}>
-            <div className="home_s1_top container">
+            <div className="home_s1_top current-container">
                 <div className="home_s1_top_left">
                     <span>Case Studies</span>
                     <h2>How the best brands use Assembly</h2>
@@ -45,9 +45,7 @@ const HomeS1 = () => {
                     breakpoints={{
                         320: {
                             slidesPerView: 1,
-                            grid: {
-                                rows: Math.ceil(visibleItems.length / 1),
-                            },
+
                         },
                         576: {
                             slidesPerView: 1.5,

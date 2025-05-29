@@ -5,7 +5,7 @@ import {Production_s2_db, Production_s2_ind_db} from "@/component/production_com
 
 const ProductionS2 = () => {
     return (
-        <section className={"container-fluid"}>
+        <section className={"current-container"}>
             <div className="production_s2_title">
                 <h1 className={"production_title"}>Elevate your brand in 4 steps</h1>
             </div>

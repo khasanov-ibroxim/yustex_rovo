@@ -49,7 +49,7 @@ const ProductionS3 = () => {
         setActiveKey(Array.isArray(key) ? key[0] : key);
     };
     return (
-        <section className={"container production_s1"}>
+        <section className={"current-container production_s1"}>
             <div className="production_s1_title col-lg-6">
                 <h1 className={"production_title"}>Why choose Assembly?</h1>
             </div>
