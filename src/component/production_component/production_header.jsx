@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import production_headerImg from "@/assets/production/production_header/filters_format(webp).webp"
+import production_headerImg from "@/assets/production/production_header/image_2025-07-07_21-23-31.jpg"
+
 const ProductionHeader = () => {
     return (
         <div className={"production_header"}>

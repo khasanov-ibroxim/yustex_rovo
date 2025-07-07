@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import {Collapse} from "antd";
-import h_1 from "@/assets/home/h_s3/h_s3_1.jpg";
-import h_2 from "@/assets/home/h_s3/h_s3_2.jpg";
-import h_3 from "@/assets/home/h_s3/h_s3_3.jpg";
+import h_1 from "@/assets/production/production_s3/image_2025-07-07_21-44-06.jpg";
+import h_2 from "@/assets/production/production_s3/image_2025-07-07_21-45-10.jpg";
+import h_3 from "@/assets/production/production_s3/image_2025-07-07_21-46-17.jpg";
+import h_4 from "@/assets/production/production_s3/image_2025-07-07_21-46-34.jpg";
 
 
 const items = [
@@ -39,7 +40,7 @@ const imageMap = {
     '1': h_1,
     '2': h_2,
     '3': h_3,
-    '4': h_1,
+    '4': h_4,
 };
 const ProductionS3 = () => {
     const [activeKey, setActiveKey] = useState('1');

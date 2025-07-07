@@ -6,6 +6,7 @@ import {FreeMode} from "swiper/modules";
 import {Home_s2_db} from "@/component/home_compenent/home_db/home_s2_db.jsx";
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import {Production_s4_db} from "@/component/production_component/production_db/production_db.jsx";
 
 const ProductionS4 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
@@ -47,7 +48,7 @@ const ProductionS4 = () => {
                 data-aos="fade-up"
 
             >
-                {Home_s2_db.slice(0, 5).map((product, index) => (
+                {Production_s4_db.slice(0, 5).map((product, index) => (
                     <SwiperSlide key={index} className={"col-lg-5"}>
                         <ProductCard product={product} key={index}/>
                     </SwiperSlide>

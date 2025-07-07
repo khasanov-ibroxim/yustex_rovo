@@ -1,18 +1,30 @@
-import h_s2_1 from "@/assets/home/h_s2/h_s2_1.jpg";
-import h_s2_1_detail from "@/assets/home/h_s2/h_s2_1_deteil.jpg";
+import h_s2_1 from "@/assets/production/production_s2/image_2025-07-07_21-35-45.png";
+import h_s2_2 from "@/assets/production/production_s2/image_2025-07-07_21-36-02.png";
 
-import pr_s2_1 from "@/assets/production/production_s2/production_s2_1.jpg"
+import pr_s2_1 from "@/assets/production/production_s2/image_2025-07-07_21-37-27.jpg"
+import pr_s2_2 from "@/assets/production/production_s2/image_2025-07-07_21-38-42.jpg"
+import pr_s2_3 from "@/assets/production/production_s2/image_2025-07-07_21-40-32.jpg"
+
+import pr_s4_1 from "@/assets/production/production_s4/image_2025-07-07_21-48-18.png"
+import pr_s4_1_element from "@/assets/production/production_s4/image_2025-07-07_21-48-31.png"
+
+import pr_s4_2 from "@/assets/production/production_s4/image_2025-07-07_21-48-44.png"
+import pr_s4_2_element from "@/assets/production/production_s4/image_2025-07-07_21-48-54.png"
+
+import pr_s4_3 from "@/assets/production/production_s4/image_2025-07-07_21-49-26.png"
+import pr_s4_3_element from "@/assets/production/production_s4/image_2025-07-07_21-49-38.png"
+
 
 export const Production_s2_ind_db = [
     {
-        img_url:[h_s2_1 , h_s2_1_detail],
-        title:"Classic T-shirt 200",
-        price:"500"
+        img_url:h_s2_1,
+        // title:"Classic T-shirt 200",
+        // price:"500"
     } ,
     {
-        img_url:[h_s2_1 , h_s2_1_detail],
-        title:"Classic T-shirt 200",
-        price:"500"
+        img_url:h_s2_2,
+        // title:"Classic T-shirt 200",
+        // price:"500"
     }
 ]
 
@@ -35,7 +47,7 @@ export const Production_s2_db =[
 
             "This optimized process along with a dedicated team of experts is part of why we are able to provide so quick lead times.",
         ],
-        photo:pr_s2_1
+        photo:pr_s2_2
     },
     {
         h1:"Receive your premium goods",
@@ -45,6 +57,20 @@ export const Production_s2_db =[
             "Our supply chain integration allows for full traceability of the process, meaning you know where your goods are at all times. Once your order is ready, we will ship it to the address provided at the time of your order.",
 
         ],
-        photo:pr_s2_1
+        photo:pr_s2_3
     },
+]
+
+
+export const Production_s4_db = [
+    {
+        img_url:[pr_s4_1_element , pr_s4_1]
+    },
+    {
+        img_url:[pr_s4_2_element , pr_s4_2]
+    },
+    {
+        img_url:[pr_s4_3_element , pr_s4_3]
+    },
+
 ]
