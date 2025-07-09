@@ -123,7 +123,7 @@ const HomeS4 = () => {
             <div className="home_s4_img mt-4">
                 {!imageLoaded && (
                     <Skeleton
-                        variant="rectangular"
+                        variant="rounded"
                         width="100%"
                         height={500}
                         animation="wave"
