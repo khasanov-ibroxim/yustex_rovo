@@ -2,9 +2,9 @@ import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import h_1 from "@/assets/home/h_s4/image_2025-07-07_21-52-31.png"
-import h_2 from "@/assets/home/h_s4/image_2025-07-07_21-53-45.jpg"
-import h_3 from "@/assets/home/h_s4/image_2025-07-07_21-55-04.jpg"
-import h_4 from "@/assets/home/h_s4/image_2025-07-07_21-55-54.jpg"
+import h_2 from "@/assets/home/h_s4/DEW05904.jpg"
+import h_3 from "@/assets/home/h_s4/DEW05960.jpg"
+import h_4 from "@/assets/home/h_s4/DEW06420.jpg"
 
 const steps = [
     {

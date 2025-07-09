@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import {Collapse} from "antd";
-import h_1 from "@/assets/production/production_s1/image_2025-07-07_21-27-53.jpg";
-import h_2 from "@/assets/production/production_s1/image_2025-07-07_21-29-56.jpg";
-import h_3 from "@/assets/production/production_s1/image_2025-07-07_21-33-33.jpg";
+import h_1 from "@/assets/production/production_s1/DEW05831.jpg";
+import h_2 from "@/assets/production/production_s1/DEW05859.jpg";
+import h_3 from "@/assets/production/production_s1/DEW05840.jpg";
 
 
 const items = [

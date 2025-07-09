@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {Collapse} from "antd";
-import h_1 from "@/assets/production/production_s3/image_2025-07-07_21-44-06.jpg";
-import h_2 from "@/assets/production/production_s3/image_2025-07-07_21-45-10.jpg";
-import h_3 from "@/assets/production/production_s3/image_2025-07-07_21-46-17.jpg";
-import h_4 from "@/assets/production/production_s3/image_2025-07-07_21-46-34.jpg";
+import h_1 from "@/assets/production/production_s3/DEW06342.jpg";
+import h_2 from "@/assets/production/production_s3/DEW06362.jpg";
+import h_3 from "@/assets/production/production_s3/DEW06335.jpg";
+import h_4 from "@/assets/production/production_s3/DEW06330.jpg";
 
 
 const items = [

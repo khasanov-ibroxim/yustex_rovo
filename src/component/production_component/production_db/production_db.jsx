@@ -1,9 +1,9 @@
 import h_s2_1 from "@/assets/production/production_s2/image_2025-07-07_21-35-45.png";
 import h_s2_2 from "@/assets/production/production_s2/image_2025-07-07_21-36-02.png";
 
-import pr_s2_1 from "@/assets/production/production_s2/image_2025-07-07_21-37-27.jpg"
-import pr_s2_2 from "@/assets/production/production_s2/image_2025-07-07_21-38-42.jpg"
-import pr_s2_3 from "@/assets/production/production_s2/image_2025-07-07_21-40-32.jpg"
+import pr_s2_1 from "@/assets/production/production_s2/DEW05776.jpg"
+import pr_s2_2 from "@/assets/production/production_s2/DEW06167.jpg"
+import pr_s2_3 from "@/assets/production/production_s2/DEW06318.jpg"
 
 import pr_s4_1 from "@/assets/production/production_s4/image_2025-07-07_21-48-18.png"
 import pr_s4_1_element from "@/assets/production/production_s4/image_2025-07-07_21-48-31.png"
