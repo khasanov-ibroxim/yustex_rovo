@@ -1,7 +1,7 @@
 .home_header {
-    background: url("@/assets/home/header_home.jpg") no-repeat fixed right;
+    background: url("@/assets/home/DSC08913.jpg") no-repeat fixed right;
     background-size: contain;
-    background-color: #EFEFEF;
+    background-color: #EAECEB;
     width: 100%;
     height: 100vh;
     position: relative;
@@ -357,7 +357,7 @@
 }
 .home_s3_right img{
     width: 90%;
-    height: 100%;
+    height: 80%;
     border-radius: 25px;
     object-fit: cover;
 }

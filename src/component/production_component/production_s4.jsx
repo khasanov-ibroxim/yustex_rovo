@@ -14,7 +14,7 @@ const ProductionS4 = () => {
     return (
         <section style={{position:"relative"}} className={"current-container"}>
             <div className="home_s2_box"style={{padding:"0 40px"}} >
-                <h1>Get started, explore <br/> our products!</h1>
+                <h1>Стиль, комфорт и надёжность — <br/> в каждой вещи!</h1>
 
             </div>
             <div className="custom-nav" data-aos="fade-up" style={{top:"12%"}}>

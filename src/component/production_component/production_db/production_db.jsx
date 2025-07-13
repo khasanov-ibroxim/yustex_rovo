@@ -1,5 +1,5 @@
-import h_s2_1 from "@/assets/production/production_s2/image_2025-07-07_21-35-45.png";
-import h_s2_2 from "@/assets/production/production_s2/image_2025-07-07_21-36-02.png";
+import h_s2_1 from "@/assets/production/production_s2/DSC08836.jpg";
+import h_s2_2 from "@/assets/production/production_s2/DSC09008.jpg";
 
 import pr_s2_1 from "@/assets/production/production_s2/DEW05776.jpg"
 import pr_s2_2 from "@/assets/production/production_s2/DEW06167.jpg"
@@ -17,60 +17,67 @@ import pr_s4_3_element from "@/assets/production/production_s4/image_2025-07-07_
 
 export const Production_s2_ind_db = [
     {
-        img_url:h_s2_1,
+        img_url: h_s2_1,
         // title:"Classic T-shirt 200",
         // price:"500"
-    } ,
+    },
     {
-        img_url:h_s2_2,
+        img_url: h_s2_2,
         // title:"Classic T-shirt 200",
         // price:"500"
     }
 ]
 
-export const Production_s2_db =[
+export const Production_s2_db = [
     {
-        h1:"Customize it in the Studio",
-        paragraphs:[
-            "After recovering from the shock of widely surpassed expectations, it’s time to materialize your vision and head to the Assembly Studio to design your products.",
-            "Our proprietary software is very intuitive to use, allowing you to fully customize each item to meet your requirements. Choose the color, upload graphic and logo files and get a preview of the final product before ordering.",
-            "The software automatically applies quantity discounts and provides an estimated shipping date depending on the selected options.",
+        h1: "Закройный отдел",
+        paragraphs: [
+            `Наш закройный цех оснащён тремя передовыми технологиями: автоматической раскройной машиной, ручной резкой и системой автоматического настила.
+Здесь каждый день выполняется до 70 000 раскроев — это сердце будущей одежды, где важна каждая линия.`,
+            `Перед началом работы специалисты тщательно проверяют качество полотна и проводят тесты совместно с модельно-конструкторским отделом, строго соблюдая международные стандарты.`,
+            `Ответственность за безупречный результат начинается с первого разреза — и мы это прекрасно знаем.`,
         ],
-        photo:pr_s2_1
+        btn:"Продукция",
+        photo: pr_s2_1
     },
     {
-        h1:"Submit Production Order",
-        paragraphs:[
-            "Once your design is finalized and your order has been placed, our sales team will contact you to confirm that your order has gone into production and to go over any questions you may have.",
+        h1: "Швейный отдел",
+        paragraphs: [
+            `Наш швейный цех ежедневно выпускает от 40 000 до 70 000 готовых изделий базовых моделей — быстро, чётко и стабильно.`,
 
-            "Our software integrates directly with our supplier network, meaning the moment you place your order they receive a customized tech pack with all the information, ready to go into production.",
+            `За качеством следят квалифицированные специалисты, а в производстве используются современные швейные машины последних моделей.`,
 
-            "This optimized process along with a dedicated team of experts is part of why we are able to provide so quick lead times.",
+            `Мы создаём весь спектр трикотажной одежды для женщин, мужчин и детей: от футболок и спортивных костюмов до пижам, юбок, поло и легинсов.
+Каждое изделие проходит путь от точного кроя до идеального шва — с вниманием к деталям и высоким стандартом качества.`,
         ],
-        photo:pr_s2_2
+        btn:"Свяжитесь",
+        photo: pr_s2_2
     },
     {
-        h1:"Receive your premium goods",
-        paragraphs:[
-            "We provide fast lead times ranging from 3 to 4 weeks depending on the level of customization of your items. You will receive periodical updates throughout the production process as your order goes through different stages.",
+        h1: "Гладильный отдел",
+        paragraphs: [
+            `Гладильный участок — это заключительный этап, где каждая деталь обретает безупречный вид.
+Здесь работают профессионалы, владеющие современным оборудованием и точной технологией обработки.`,
 
-            "Our supply chain integration allows for full traceability of the process, meaning you know where your goods are at all times. Once your order is ready, we will ship it to the address provided at the time of your order.",
+            `Благодаря правильной температуре, давлению и аккуратности, изделия приобретают презентабельный вид и готовы к упаковке или отправке.
+Мы придаём значение каждому изгибу ткани — ведь именно из мелочей складывается ощущение качества.`,
 
         ],
-        photo:pr_s2_3
+        btn:"Контакты",
+        photo: pr_s2_3
     },
 ]
 
 
 export const Production_s4_db = [
     {
-        img_url:[pr_s4_1_element , pr_s4_1]
+        img_url: [pr_s4_1_element, pr_s4_1]
     },
     {
-        img_url:[pr_s4_2_element , pr_s4_2]
+        img_url: [pr_s4_2_element, pr_s4_2]
     },
     {
-        img_url:[pr_s4_3_element , pr_s4_3]
+        img_url: [pr_s4_3_element, pr_s4_3]
     },
 
 ]

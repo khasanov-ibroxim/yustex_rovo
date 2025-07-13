@@ -4,24 +4,34 @@ import { Collapse } from 'antd';
 import { Link } from "react-router-dom";
 
 import h_1 from "@/assets/home/h_s3/h_s3_1.jpg";
-import h_2 from "@/assets/home/h_s3/h_s3_2.jpg";
-import h_3 from "@/assets/home/h_s3/h_s3_3.jpg";
+import h_2 from "@/assets/home/h_s3/2O8A5122.JPG";
+import h_3 from "@/assets/home/h_s3/sewing-machine-work-textile-fabric-nobody.jpg";
 
 const items = [
     {
         key: '1',
-        label: 'Pantone© colors',
-        children: <p>Match any reference, using either one of our pre-selected colors or any Pantone hue.</p>,
+        label: 'Мир цвета Pantone©',
+        children: <p>Цвет — это язык, которым говорит ваш бренд.</p>,
     },
     {
         key: '2',
-        label: 'Fabric options',
-        children: <p>Choose from a wide range of high-quality fabrics suited for your needs.</p>,
+        label: 'Точное соответствие',
+        children: <p>Мы используем палитру Pantone© для точной передачи оттенков в печати.</p>,
     },
     {
         key: '3',
-        label: 'Logo Embroidery',
-        children: <p>Add your own logo with our precise embroidery technology.</p>,
+        label: 'Гармония в деталях',
+        children: <p>Правильно подобранный цвет усиливает восприятие дизайна и добавляет профессионализма.</p>,
+    },
+    {
+        key: '4',
+        label: 'Тренды сезона',
+        children: <p>Следим за обновлениями Pantone© и предлагаем актуальные цветовые решения.</p>,
+    },
+    {
+        key: '5',
+        label: 'Цвет как стиль',
+        children: <p>Каждый оттенок способен задать настроение и подчеркнуть индивидуальность вашей продукции.</p>,
     },
 ];
 
@@ -29,6 +39,8 @@ const imageMap = {
     '1': h_1,
     '2': h_2,
     '3': h_3,
+    '4': h_1,
+    '5': h_2,
 };
 
 const HomeS3 = () => {
@@ -54,7 +66,7 @@ const HomeS3 = () => {
                         />
 
                         <Link to="#">
-                            Discover more in our Studio now <ArrowForwardIcon />
+                            Продукция <ArrowForwardIcon />
                         </Link>
                     </div>
                 </div>

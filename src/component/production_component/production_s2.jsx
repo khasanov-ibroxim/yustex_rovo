@@ -7,28 +7,26 @@ const ProductionS2 = () => {
     return (
         <section className={"current-container"}>
             <div className="production_s2_title">
-                <h1 className={"production_title"}>Elevate your brand in 4 steps</h1>
+                <h1 className={"production_title"}>Каждый этап под контролем</h1>
             </div>
             <div className="production_s2_content_box">
                 <div className="production_s2_content">
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="production_s2_content_text">
-                                <h1>1. Order a Sample</h1>
+                                <h1>1.Мощности, проверенные делом</h1>
                                 <div className="production_s2_content_text_box">
-                                    <p>Try before you buy! We’re to make your merch dreams come true and want to make
-                                        sure your new products are everything you hoped for.</p>
-                                    <p>
-                                        Our samples are always in stock and provide the perfect way for you to test fit
-                                        and quality first-hand, before moving to production. Besides the samples, we
-                                        advise on ordering our devkits as well, so you can have a clear vision of all
-                                        the available colors, printing techniques and qualities of woven labels.
-                                    </p>
-                                    <p>
-                                        Whether it’s an upcoming launch, event, collaboration or activation, you’ll find
-                                        the best match for your business here.</p>
+                                    <p>Наша фабрика — это стабильное производство, отлаженные процессы и десятилетний
+                                        опыт в создании трикотажной одежды.</p>
+                                    <p>25 производственных линий и команда из более чем 950 сотрудников позволяют нам
+                                        выпускать до 50 000 изделий в день.
+                                        Мы производим мужскую, женскую и детскую одежду: от футболок и костюмов до пижам
+                                        и блузок, экспортируя продукцию в более чем 5 стран.
+                                        12+ лет мы растём, развиваемся и доказываем: качество — это результат системной
+                                        работы.</p>
+
                                     <div className="production_s2_content_link">
-                                        <Link to={"#"}>View all products</Link>
+                                        <Link to={"#"}>Продукция</Link>
                                     </div>
 
                                 </div>
@@ -53,7 +51,7 @@ const ProductionS2 = () => {
                                             <p key={index}>{paragraph}</p>
                                         ))}
                                         <div className="production_s2_content_link">
-                                            <Link to={"#"}>View all products</Link>
+                                            <Link to={"#"}>{product.btn}</Link>
                                         </div>
 
                                     </div>

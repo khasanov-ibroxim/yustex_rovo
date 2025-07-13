@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Skeleton from "@mui/material/Skeleton";
 
-import h_1 from "@/assets/home/h_s4/image_2025-07-07_21-52-31.png";
+import h_1 from "@/assets/home/h_s4/DSC08511.jpg";
 import h_2 from "@/assets/home/h_s4/DEW05904.jpg";
 import h_3 from "@/assets/home/h_s4/DEW05960.jpg";
 import h_4 from "@/assets/home/h_s4/DEW06420.jpg";
@@ -11,26 +11,26 @@ import h_4 from "@/assets/home/h_s4/DEW06420.jpg";
 const steps = [
     {
         id: 1,
-        title: "Order a sample",
-        description: "Try before you buy, it's that simple.",
+        title: "Гарантируем качество",
+        description: "Мы даём полную гарантию на добросовестное и качественное выполнение ваших заказов.",
     },
     {
         id: 2,
-        title: "Explore design options",
+        title: "Производим сами",
         description:
-            "Upload your artwork and choose your customization options. We’ll automatically give you a transparent price!",
+            "Всё изготавливается на нашем собственном производстве. Работаем по современным технологиям и стандартам.",
     },
     {
         id: 3,
-        title: "Add finishing touches",
+        title: "Команда профессионалов",
         description:
-            "Don't forget about adding a custom woven neck label. It's all in the details.",
+            "Наши специалисты — это опыт, точность и ответственность. Каждый этап производства контролируется экспертами.",
     },
     {
         id: 4,
-        title: "Your order is on it's way!",
+        title: "Индивидуальный подход",
         description:
-            "Share your custom hoodies, tees, and caps with your community to expand your brand.",
+            "Выполним заказ по вашим техзаданиям или предложим готовую коллекцию. Работаем гибко и с учётом всех пожеланий.",
     },
 ];
 
@@ -74,10 +74,10 @@ const HomeS4 = () => {
     return (
         <section className="current-container" style={{ marginTop: "140px", marginBottom: "100px" }}>
             <div className="home_s1_top_left" style={{ marginBottom: "40px" }}>
-                <span>How it works</span>
-                <h2>Premium merch <br />now</h2>
+                <span> Почему выбирают нас</span>
+                <h2>Качество, надёжность и индивидуальный подход — всё в одном месте</h2>
                 <Link to={"#"} style={{ color: "black", textDecoration: "none", fontWeight: "600" }}>
-                    Check out our products now <ArrowForwardIcon style={{ marginLeft: "10px" }} />
+                    Перейти к продукции <ArrowForwardIcon style={{ marginLeft: "10px" }} />
                 </Link>
             </div>
 
@@ -137,7 +137,8 @@ const HomeS4 = () => {
                         display: imageLoaded ? "block" : "none",
                         width: "100%",
                         borderRadius: "12px",
-                        transition: "opacity 0.3s ease-in-out"
+                        transition: "opacity 0.3s ease-in-out",
+                        objectFit:"cover"
                     }}
                     onLoad={() => setImageLoaded(true)}
                 />

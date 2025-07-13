@@ -6,15 +6,16 @@ const FooterForm = () => {
         <div className={"current-container"}>
             <div className="footer_form_box">
                 <div className="footer_form_box_text">
-                    <h1>Interested? <br/>
-                        That’s just the start.
+                    <h1>Заинтересовались?
                     </h1>
-                    <p>Exclusive news, sneak peaks on new launches...and more. Signing up is the only way to find out!
-                        Join our list and stay tuned.</p>
+                    <p>Это только начало.
+                        Советы по выбору тканей, идеи дизайна, примеры нашей продукции и закулисье процесса печати — всё
+                        это вы найдёте в нашей рассылке. Подпишитесь и будьте ближе к миру стильной и качественной
+                        одежды.</p>
                 </div>
                 <div className="footer_form_box_input">
-                    <input type="email" placeholder={"E-mail address"}/>
-                    <button>Submit</button>
+                    <input type="email" placeholder={"E-mail"}/>
+                    <button>Отправить</button>
                 </div>
             </div>
         </div>

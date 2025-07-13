@@ -3,20 +3,24 @@ import { motion, useAnimation, useInView } from 'framer-motion';
 
 const steps = [
     {
-        title: "Select a style with classic fits",
-        description: "Choose from our range of pre-engineered garments to begin your new project. We specialize in classic styles — like t-shirts and hoodies — with regular to boxy fits.",
+        title: "Индивидуальный подход к дизайну",
+        description: `Разрабатываем дизайн, подбираем ткани и фурнитуру, согласовываем каждый элемент с заказчиком.
+Можем работать как по вашему техзаданию, так и предложить собственные решения.`,
     },
     {
-        title: "Start customization",
-        description: "Choose from over 1000 dye colors and up to 24 neck label applications for an unmatched level of design precision.",
+        title: "Стабильное и отлаженное производство",
+        description: `После утверждения запускаем процесс в швейном цеху с использованием современных технологий.
+Наша фабрика работает с 2011 года и выпускает продукцию для известных брендов.`,
     },
     {
-        title: "Real-time cost & delivery calculation",
-        description: "Our control panel makes sure you never lose sight of time or budget, helping inform every design decision you make.",
+        title: "Контроль на каждом этапе",
+        description: `Качество проверяется в процессе и после пошива: чистка, упаковка и подготовка к отгрузке — под строгим контролем.
+Мы используем систему внутреннего контроля, чтобы каждая партия соответствовала стандартам.`,
     },
     {
-        title: "Share and collaborate",
-        description: "Garment production is often a team effort. With our sharing options you can easily present ideas for quick feedback or sign-off.",
+        title: "Опыт и доверие",
+        description: `Более 12 лет на рынке и сотрудничество с 30+ брендами в странах СНГ — это не просто цифры, а подтверждённая надёжность.
+Мы уверены в результате и даём 100% гарантию удовлетворения.`,
     },
 ];
 

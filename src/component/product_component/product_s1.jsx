@@ -10,12 +10,12 @@ const ProductS1 = () => {
                 <div className="row">
                     <div className="col-lg-4 p-5 pt-0">
                         <div className="production_s2_content_text">
-                            <span style={{fontSize: "16px", color: "#1e1e1e", fontWeight: "700"}}>Get started</span>
-                            <h1>Order a blank sample today</h1>
+                            <span style={{fontSize: "16px", color: "#1e1e1e", fontWeight: "700"}}>Натуральность в каждой нити</span>
+                            <h1>Мы выбираем то, что безопасно для вас и природы.</h1>
                             <div className="production_s2_content_text_box" style={{margin: "0"}}>
-                                <p>Our products are classic unisex fits all made in Portugal with 100% organic cotton.
-                                    Order a sample to try before you buy, and design your full order in the Assembly
-                                    Studio.</p>
+                                <p>В производстве мы используем 100% хлопок — дышащий, мягкий и гипоаллергенный материал.
+                                    Это экологичный выбор, подходящий даже для чувствительной кожи.
+                                    Качество ткани подтверждено стандартами, а комфорт ощущается с первого прикосновения.</p>
                             </div>
                         </div>
                     </div>

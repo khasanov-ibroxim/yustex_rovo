@@ -8,10 +8,11 @@ const ProductionHeader = () => {
             <div className="row">
                 <div className="col-lg-6 ">
                     <div className="production_header_text ">
-                        <h1 className={"production_title"}>A streamlined production process</h1>
-                        <p>Our proprietary Studio software seamlessly integrates with our supply chain in Portugal,
-                            meaning your order goes into production at the push of a button. </p>
-                        <Link to={"#"}>Start designing</Link>
+                        <h1 className={"production_title"}>Швейный отдел</h1>
+                        <p>Наш швейный отдел — это 25 современных производственных линий, где более 800 мастеров своего
+                            дела создают одежду с точностью и заботой. Надёжную работу обеспечивает команда из 40
+                            профессионалов технической поддержки.</p>
+                        <Link to={"#"}>Подробно</Link>
                     </div>
                 </div>
                 <div className="col-lg-6 h-100">

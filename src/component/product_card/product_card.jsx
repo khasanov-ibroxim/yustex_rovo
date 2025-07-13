@@ -30,11 +30,11 @@ const ProductCard = ({ product, key , height , width}) => {
             }}
         >
             <div className="product_card_top">
-                <div className="product_card_top_title">{product?.title}</div>
-                <div className="product_card_top_price">{product?.price ?  `from ${product?.price}€` : ""} </div>
+                {/*<div className="product_card_top_title">{product?.title}</div>*/}
+                {/*<div className="product_card_top_price">{product?.price ?  `from ${product?.price}€` : ""} </div>*/}
             </div>
             <div className="product_card_bottom">
-                <Link to="#">Order simple</Link>
+                {/*<Link to="#">Order simple</Link>*/}
             </div>
         </div>
     );

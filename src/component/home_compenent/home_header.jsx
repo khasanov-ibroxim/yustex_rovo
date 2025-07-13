@@ -8,12 +8,12 @@ const HomeHeader = () => {
         <div className={"home_header"}>
             <div className={"current-container"}>
                 <div className="home_header_box">
-                    <h1>Premium merch <br/> for your business</h1>
-                    <p>Assembly simplifies merch by combining a powerful digital <br/> platform with a fully integrated supply
-                        chain. </p>
+                    <h1>Идеальное качество. <br/> Уникальный стиль</h1>
+                    <p>Мы — одна из ведущих фабрик по производству хлопковой одежды, <br/> где каждый стежок говорит о
+                        качестве, а каждая модель — об индивидуальности.</p>
                     <div className="home_header_box_btns">
-                        <Link to={"#"}>Start designing</Link>
-                        <Link to={"#"}>Get in touch <ArrowForwardIcon/> </Link>
+                        <Link to={"#"}>Оставить заявку</Link>
+                        <Link to={"#"}> Связаться с нами  <ArrowForwardIcon/> </Link>
                     </div>
                 </div>
             </div>

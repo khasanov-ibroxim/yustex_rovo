@@ -8,8 +8,8 @@ const ProductS3 = () => {
                 <div className="row flex-wrap">
                     <div className="col-lg-5 ">
                         <div className="pr-s3-title">
-                            <span>How it works</span>
-                            <h1>Everything you need in one place</h1>
+                            <span>Полный цикл производства — <br/>от идеи до готовой продукции</span>
+                            <h1>Нам доверяют бренды, потому что мы ценим качество, сроки и партнёрство.</h1>
                         </div>
                     </div>
                     <div className="col-lg-7 ">
