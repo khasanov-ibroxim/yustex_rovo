@@ -6,7 +6,6 @@ import Home_s1 from "@/component/home_compenent/home_s1.jsx";
 import Home_s2 from "@/component/home_compenent/home_s2.jsx";
 import Home_s3 from "@/component/home_compenent/home_s3.jsx";
 import Home_s4 from "@/component/home_compenent/home_s4.jsx";
-import Home_header_element from "@/component/home_compenent/home_header_element.jsx";
 import Footer from "@/component/footer/footer.jsx";
 import Footer_form from "@/component/footer_form/footer_form.jsx";
 

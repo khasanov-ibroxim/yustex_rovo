@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
-import logo from "@/assets/logo1.svg";
 import { HOME, PRODUCT, PRODUCTION } from "@/utils/consts.jsx";
 
 const Navbar = () => {
@@ -70,9 +69,9 @@ const Navbar = () => {
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={HOME}>главная</Link></li>
-                        <li><Link to={PRODUCTION}>производство</Link></li>
-                        <li><Link to={PRODUCT}>продукция</Link></li>
+                        <li><Link to={HOME} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>главная</Link></li>
+                        <li><Link to={PRODUCTION} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>производство</Link></li>
+                        <li><Link to={PRODUCT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>продукция</Link></li>
                     </ul>
                 </div>
                 <div className="nav_end">
