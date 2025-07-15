@@ -50,10 +50,5 @@ export const Product_s2_db = [
         price: "2000",
         img_url: [p_6 , p_6_detail],
     },
-    {
-        title: "adsdasdsadasd 1",
-        price: "2000",
-        img_url: [p_7 , p_7_detail],
-    },
 
 ]
