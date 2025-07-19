@@ -1,17 +1,19 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { Collapse } from 'antd';
 import { Link } from "react-router-dom";
 
-import h_1 from "@/assets/home/h_s3/h_s3_1.jpg";
+import h_1 from "@/assets/home/h_s3/top-view-hands-holding-color-palette.jpg";
 import h_2 from "@/assets/home/h_s3/2O8A5113.JPG";
 import h_3 from "@/assets/home/h_s3/sewing-machine-work-textile-fabric-nobody.jpg";
+import h_4 from "@/assets/home/h_s3/DSC08732.jpg";
+import h_5 from "@/assets/home/h_s3/DSC08582.jpg";
 
 const items = [
     {
         key: '1',
         label: 'Мир цвета Pantone©',
-        children: <p>Цвет — это язык, которым говорит ваш бренд.</p>,
+        children: <p>Цвет передаёт характер вашего бренда</p>,
     },
     {
         key: '2',
@@ -39,18 +41,35 @@ const imageMap = {
     '1': h_1,
     '2': h_2,
     '3': h_3,
-    '4': h_1,
-    '5': h_2,
+    '4': h_4,
+    '5': h_5,
 };
+
 
 const HomeS3 = () => {
     const [activeKey, setActiveKey] = useState('1');
+    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1000);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth > 1000);
+        };
+
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const getStyle = () => {
+        if (!isLargeScreen) return {}; // Ekran kichik bo‘lsa, style bo‘lmasin
+        if (imageMap[activeKey] === h_4) return {height: '800px'};
+        if (imageMap[activeKey] === h_5) return { height: '800px' };
+        return {};
+    };
     const onChange = (key) => {
         if (!key || (Array.isArray(key) && key.length === 0)) return;
         setActiveKey(Array.isArray(key) ? key[0] : key);
     };
-
+    console.log(imageMap[activeKey])
     return (
         <section className={"current-container"}>
             <div className="row">
@@ -71,8 +90,8 @@ const HomeS3 = () => {
                     </div>
                 </div>
                 <div className="col-lg-8">
-                    <div className="home_s3_right">
-                        <img src={imageMap[activeKey]} alt="" />
+                    <div className="home_s3_right" style={getStyle()}>
+                        <img src={imageMap[activeKey]} alt=""/>
                     </div>
                 </div>
             </div>

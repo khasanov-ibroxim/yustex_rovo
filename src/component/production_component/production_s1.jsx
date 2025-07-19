@@ -3,6 +3,7 @@ import {Collapse} from "antd";
 import h_1 from "@/assets/production/production_s1/DEW05831.jpg";
 import h_2 from "@/assets/production/production_s1/DEW05859.jpg";
 import h_3 from "@/assets/production/production_s1/DEW05840.jpg";
+import h_4 from "@/assets/production/production_s1/DEW05867.jpg";
 
 
 const items = [
@@ -32,7 +33,7 @@ const imageMap = {
     '1': h_1,
     '2': h_2,
     '3': h_3,
-    '4': h_1,
+    '4': h_4,
 };
 const ProductionS1 = () => {
     const [activeKey, setActiveKey] = useState('1');

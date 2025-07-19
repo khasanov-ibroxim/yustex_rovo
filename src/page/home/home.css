@@ -351,13 +351,13 @@
 
 .home_s3_right{
     width: 100%;
-    height: 700px;
+    height: 600px;
     display: flex;
     justify-content: flex-end;
 }
 .home_s3_right img{
     width: 90%;
-    height: 80%;
+    height: 100%;
     border-radius: 25px;
     object-fit: cover;
 }
@@ -380,7 +380,7 @@
 .home_s4_img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 25px;
 }
 
@@ -392,5 +392,9 @@
     .custom-nav {
         top: 50% !important;
         width: 90% !important;
+    }
+
+    .home_s4_img img{
+        object-fit: cover;
     }
 }

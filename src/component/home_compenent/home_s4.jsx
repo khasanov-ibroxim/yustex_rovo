@@ -138,7 +138,6 @@ const HomeS4 = () => {
                         width: "100%",
                         borderRadius: "12px",
                         transition: "opacity 0.3s ease-in-out",
-                        objectFit:"cover"
                     }}
                     onLoad={() => setImageLoaded(true)}
                 />

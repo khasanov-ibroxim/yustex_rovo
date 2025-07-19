@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Collapse} from "antd";
 import h_1 from "@/assets/production/production_s3/DEW06342.jpg";
 import h_2 from "@/assets/production/production_s3/DEW06362.jpg";
-import h_3 from "@/assets/production/production_s3/DEW06335.jpg";
+import h_3 from "@/assets/production/production_s3/DEW06333.jpg";
 import h_4 from "@/assets/production/production_s3/DEW06330.jpg";
 
 
