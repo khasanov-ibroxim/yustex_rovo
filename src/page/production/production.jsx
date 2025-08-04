@@ -12,7 +12,7 @@ const Production = () => {
     return (
         <div style={{position:"relative" , background:"white" , marginBottom:"100vh" , paddingBottom:"100px"}}>
             <ProductionHeader/>
-            <Production_s1/>
+
             <Production_s2/>
             <Production_s3/>
             <Production_s4/>
