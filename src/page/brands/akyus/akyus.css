@@ -1,0 +1,84 @@
+.akyus_box {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.akyus_opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 3
+}
+
+.akyus_swiper {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    z-index: 2;
+}
+
+.akyus_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.akyus_content {
+    padding: 0 20px;
+    margin-top: 150px;
+}
+
+.product_item {
+    width: 100%;
+    height: 80vh;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.product_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.akyus_tabs_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 50px 0;
+    gap: 20px;
+}
+
+.product_tab_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+.product_tab_item.active {
+    color: white;
+    background: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    .product_item {
+        height: 100%;
+    }
+    .akyus_tabs_box{
+        flex-wrap: wrap;
+    }
+}

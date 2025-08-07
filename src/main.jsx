@@ -10,9 +10,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {BrowserRouter} from "react-router-dom";
+import {LanguageProvider} from "@/utils/lang/LangContext.jsx";
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <App/>
+        <LanguageProvider>
+            <App/>
+        </LanguageProvider>
+
     </BrowserRouter>,
 )
