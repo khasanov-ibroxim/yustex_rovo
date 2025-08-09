@@ -4,7 +4,7 @@ import { Collapse } from 'antd';
 import { Link } from "react-router-dom";
 
 import h_1 from "@/assets/home/h_s3/top-view-hands-holding-color-palette.jpg";
-import h_2 from "@/assets/home/h_s3/2O8A5113.JPG";
+import h_2 from "@/assets/home/h_s3/2O8A5113.jpg";
 import h_3 from "@/assets/home/h_s3/sewing-machine-work-textile-fabric-nobody.jpg";
 import h_4 from "@/assets/home/h_s3/DSC08732.jpg";
 import h_5 from "@/assets/home/h_s3/DSC08582.jpg";
