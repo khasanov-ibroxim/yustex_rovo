@@ -1,6 +1,5 @@
 import React, {useRef} from 'react';
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Home_s1_db} from "@/component/home_compenent/home_db/home_s1_db.jsx";
 import ProductCard from "@/component/product_card/product_card.jsx";
 import {FreeMode} from "swiper/modules";
 import {Home_s2_db} from "@/component/home_compenent/home_db/home_s2_db.jsx";
