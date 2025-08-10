@@ -52,3 +52,11 @@
     font-weight: 600;
 }
 
+@media screen and (max-width: 1000px){
+    .company_s2_item{
+        height: 400px;
+    }
+    .company_s2{
+        margin-top: 50px;
+    }
+}

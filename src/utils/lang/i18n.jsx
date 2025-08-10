@@ -55,6 +55,13 @@ i18n
                             text:"Задайте вопрос или оформите заказ — мы всегда на связи",
                             btn:"Контакты"
                         }
+                    },
+                    errors:{
+                        success:"A message has been sent, we will contact you shortly",
+                        name_empty:"Your name cannot be empty",
+                        name_error:"You typed your name incorrectly",
+                        tell_error:"Your phone number is incorrect",
+                        server_error:"A system error has occurred"
                     }
                 }
             },
@@ -97,6 +104,13 @@ Our wide range of products highlights your uniqueness.`
                             text:"Have a question or want to place an order? We're always here for you.",
                             btn:"Contact"
                         }
+                    },
+                    errors:{
+                        success:"A message has been sent, we will contact you shortly",
+                        name_empty:"Your name cannot be empty",
+                        name_error:"You typed your name incorrectly",
+                        tell_error:"Your phone number is incorrect",
+                        server_error:"A system error has occurred"
                     }
                 }
             },

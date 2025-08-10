@@ -5,6 +5,7 @@ import {FreeMode} from "swiper/modules";
 import {Home_s2_db} from "@/component/home_compenent/home_db/home_s2_db.jsx";
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import {CONTACT} from "@/utils/consts.jsx";
 
 const HomeS2 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
@@ -18,8 +19,8 @@ const HomeS2 = () => {
                     Мы объединяем современные технологии, безупречный вкус и <br/>
                     ответственное производство в каждой детали.</p>
                 <div className="home_header_box_btns">
-                    <Link to={"#"}>Start designing</Link>
-                    <Link to={"#"}>Get in touch <ArrowForwardIcon/> </Link>
+                    <Link to={CONTACT}>Оставить заявку </Link>
+                    <Link to={CONTACT}>Связаться с нами <ArrowForwardIcon/> </Link>
                 </div>
             </div>
             {/*<div className="custom-nav" data-aos="fade-up">*/}

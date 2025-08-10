@@ -7,6 +7,7 @@ import h_1 from "@/assets/home/h_s4/DSC08511.jpg";
 import h_2 from "@/assets/home/h_s4/DEW05904.jpg";
 import h_3 from "@/assets/home/h_s4/DEW05960.jpg";
 import h_4 from "@/assets/home/h_s4/DEW06420.jpg";
+import {PRODUCT} from "@/utils/consts.jsx";
 
 const steps = [
     {
@@ -76,7 +77,7 @@ const HomeS4 = () => {
             <div className="home_s1_top_left" style={{ marginBottom: "40px" }}>
                 <span> Почему выбирают нас</span>
                 <h2>Качество, надёжность и индивидуальный подход — всё в одном месте</h2>
-                <Link to={"#"} style={{ color: "black", textDecoration: "none", fontWeight: "600" }}>
+                <Link to={PRODUCT} style={{ color: "black", textDecoration: "none", fontWeight: "600" }}>
                     Перейти к продукции <ArrowForwardIcon style={{ marginLeft: "10px" }} />
                 </Link>
             </div>

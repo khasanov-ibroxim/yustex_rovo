@@ -6,18 +6,21 @@
     height: 100vh;
     position: relative;
 }
-.home_header_element{
+
+.home_header_element {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.home_header_element img{
+
+.home_header_element img {
     width: 700px;
     height: 100%;
     object-fit: cover;
 }
+
 .home_header_box {
     position: absolute;
     top: 20%;
@@ -78,6 +81,39 @@
     }
 }
 
+
+.box_sertf {
+    width: 100%;
+    height: max-content;
+    padding: 50px 0;
+    background: #EFEFEF;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box_sertf h1 {
+    padding: 30px 0;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.box_oborod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    gap: 30px;
+}
+
+.box_oborod img {
+    width: calc(100% / 5);
+    height: 100%;
+    object-fit: contain;
+}
 
 .home_s1_top {
     display: flex;
@@ -140,11 +176,12 @@
     position: relative;
     padding: 10px;
 
-    min-height: 578px ;
+    min-height: 578px;
     background-size: cover;
     cursor: pointer;
 }
-.home_s1_swiper .swiper-slide:nth-child(2n+1){
+
+.home_s1_swiper .swiper-slide:nth-child(2n+1) {
     min-height: 550px;
 }
 
@@ -299,6 +336,7 @@
     font-size: 50px;
     font-weight: bold;
 }
+
 .home_s3_left p {
     margin-bottom: 50px;
 }
@@ -351,20 +389,22 @@
     font-size: 14px;
 }
 
-.home_s3_right{
+.home_s3_right {
     width: 100%;
     height: 600px;
     display: flex;
     justify-content: flex-end;
 }
-.home_s3_right img{
+
+.home_s3_right img {
     width: 90%;
     height: 100%;
     border-radius: 25px;
     object-fit: cover;
 }
+
 @media screen and (max-width: 1000px) {
-    .home_s3_right{
+    .home_s3_right {
         width: 100%;
         height: 500px;
         display: flex;
@@ -375,11 +415,12 @@
 }
 
 
-.home_s4_img{
+.home_s4_img {
     width: 100%;
     height: 700px;
 }
-.home_s4_img img{
+
+.home_s4_img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -387,16 +428,20 @@
 }
 
 @media screen and (max-width: 800px) {
-    .home_s2_box{
+    .home_s2_box {
         width: 100%;
         padding: 0 10px !important;
     }
+
     .custom-nav {
         top: 50% !important;
         width: 90% !important;
     }
 
-    .home_s4_img img{
+    .home_s4_img img {
         object-fit: cover;
+    }
+    .home_s2_box h1{
+        font-size: 30px;
     }
 }

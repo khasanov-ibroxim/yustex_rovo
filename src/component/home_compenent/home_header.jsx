@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {CONTACT} from "@/utils/consts.jsx";
 
 const HomeHeader = () => {
     return (
@@ -11,8 +12,8 @@ const HomeHeader = () => {
                     <p>Мы — одна из ведущих фабрик по производству хлопковой одежды, <br/> где каждый стежок говорит о
                         качестве, а каждая модель — об индивидуальности.</p>
                     <div className="home_header_box_btns">
-                        <Link to={"#"}>Оставить заявку</Link>
-                        <Link to={"#"}> Связаться с нами  <ArrowForwardIcon/> </Link>
+                        <Link to={CONTACT}>Оставить заявку</Link>
+                        <Link to={CONTACT}> Связаться с нами  <ArrowForwardIcon/> </Link>
                     </div>
                 </div>
             </div>

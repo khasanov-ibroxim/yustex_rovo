@@ -7,7 +7,7 @@ import img1 from "@/assets/company/company_s3/DEW06056.jpg"
 const CompanyS3 = () => {
     return (
         <div className={"current-container"}>
-            <div className="row">
+            <div className="row s3_row">
                 <div className="col-6">
                     <div className="company_s3_text">
                         <h2>Девиз компании</h2>

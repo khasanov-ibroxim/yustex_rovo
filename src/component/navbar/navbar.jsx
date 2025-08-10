@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import "./navbar.css";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import {CloseOutlined, DownOutlined, MenuOutlined} from "@ant-design/icons";
 import {BRAND_AKYUS, COMPANY, CONTACT, HOME, PRODUCT, PRODUCTION} from "@/utils/consts.jsx";
 import logo from "@/assets/logoYustex.png"
@@ -51,26 +51,50 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`navbar ${scrollDirection === 'down' ? 'navbar--hidden' : ''} ${atTop ? 'navbar--transparent' : 'navbar--solid'}`}>
+        <nav
+            className={`navbar ${scrollDirection === 'down' ? 'navbar--hidden' : ''} ${atTop ? 'navbar--transparent' : 'navbar--solid'}`}>
             <div className={"nav_full_box current-container"}>
                 <div className="nav_top_for_home">
-                    <Link to={HOME} className="nav_logo" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                    <Link to={HOME} className="nav_logo" onClick={() =>{
+                        window.scrollTo({top: 0, behavior: "smooth"});
+                        setIsMenuOpen(false);
+                    }}>
                         <img src={logo} alt=""/>
                     </Link>
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={COMPANY} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>О Компании</Link></li>
-                        <li className={"dropdown_nav"}><Link to={"#"}>Бренд</Link>
+                        <li><Link to={COMPANY} onClick={() =>{
+                            window.scrollTo({top: 0, behavior: "smooth"});
+                            setIsMenuOpen(false);
+                        }}>О Компании</Link></li>
+                            <li className={"dropdown_nav"}><Link to={"#"}>Бренд</Link>
                             <ol className={"dropdown_menu"}>
-                                <li><Link to={BRAND_AKYUS}>Akyus</Link></li>
-                                <li><Link to={"#"}>Liberty</Link></li>
-                                <li><Link to={"#"}>Магазины</Link></li>
+                            <li><Link onClick={() =>{
+                                window.scrollTo({top: 0, behavior: "smooth"});
+                                setIsMenuOpen(false);
+                            }} to={BRAND_AKYUS}>Akyus</Link></li>
+                            <li><Link onClick={() =>{
+                                window.scrollTo({top: 0, behavior: "smooth"});
+                                setIsMenuOpen(false);
+                            }} to={"#"}>Liberty</Link></li>
+                            <li><Link onClick={() =>{
+                                window.scrollTo({top: 0, behavior: "smooth"});
+                                setIsMenuOpen(false);
+                            }} to={"#"}>Магазины</Link></li>
 
-                            </ol>
+                        </ol>
                         </li>
-                        <li><Link to={PRODUCTION} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Производство</Link></li>
-                        <li><Link to={PRODUCT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Продукция</Link></li>
+                        <li><Link to={PRODUCTION}
+                                  onClick={() =>{
+                                      window.scrollTo({top: 0, behavior: "smooth"});
+                                      setIsMenuOpen(false);
+                                  }}>Производство</Link></li>
+                        <li><Link to={PRODUCT}
+                                  onClick={() =>{
+                                      window.scrollTo({top: 0, behavior: "smooth"});
+                                      setIsMenuOpen(false);
+                                  }}>Продукция</Link></li>
                         <li><Link to={"https://tashkent.hh.uz/"}>Вакансии</Link></li>
                     </ul>
                 </div>
@@ -91,9 +115,12 @@ const Navbar = () => {
                         </Dropdown>
                     </div>
 
-                    <div  style={isMobile ? {display: "none"} : {display: "flex"}}>
+                    <div style={isMobile ? {display: "none"} : {display: "flex"}}>
                         <Link to={CONTACT}
-                              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                              onClick={() =>{
+                                  window.scrollTo({top: 0, behavior: "smooth"});
+                                  setIsMenuOpen(false);
+                              }}
                               className="nav_end_btn">Контакты</Link>
                     </div>
 

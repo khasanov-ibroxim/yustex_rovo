@@ -55,4 +55,7 @@
     .footer_form_box_text{
         width: 100%;
     }
+    .footer_form_box_text h1{
+        font-size: 25px;
+    }
 }
