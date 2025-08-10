@@ -1,0 +1,117 @@
+.contact_header{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact_header h1{
+    font-size: 64px;
+    font-weight: 400;
+}
+.contact_header p{
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+.contact_header p span{
+    color: black;
+}
+.contact_top_item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.contact_top_item a{
+    text-decoration: none;
+}
+.contact_circle{
+    background: black;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_circle svg{
+    font-size: 40px;
+}
+.contact_top_item h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+.contact_top_item p , .contact_top_item a{
+    color: #666666;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.form h3{
+    font-size: 48px;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.form_input{
+    width: 100%;
+    border-bottom: 1px solid #666666;
+}
+.form_input input , .form_input textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 5px 0;
+}
+.form button{
+    background: black;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    transition: 0.4s;
+    white-space: nowrap;
+}
+.form button:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+.contact_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+@media screen and (max-width: 1000px){
+    .form button{
+        width: 100%;
+    }
+    .contact_map{
+        margin-top: 35px;
+    }
+    .contact_top_item{
+        padding-top: 30px !important;
+    }
+}

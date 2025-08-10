@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import {CloseOutlined, DownOutlined, MenuOutlined} from "@ant-design/icons";
-import {BRAND_AKYUS, COMPANY, HOME, PRODUCT, PRODUCTION} from "@/utils/consts.jsx";
+import {BRAND_AKYUS, COMPANY, CONTACT, HOME, PRODUCT, PRODUCTION} from "@/utils/consts.jsx";
 import logo from "@/assets/logoYustex.png"
 import {Dropdown, Space} from "antd";
 import {languages} from "@/utils/lang/langs.jsx";
@@ -71,6 +71,7 @@ const Navbar = () => {
                         </li>
                         <li><Link to={PRODUCTION} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Производство</Link></li>
                         <li><Link to={PRODUCT} onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Продукция</Link></li>
+                        <li><Link to={"https://tashkent.hh.uz/"}>Вакансии</Link></li>
                     </ul>
                 </div>
                 <div className="nav_end">
@@ -91,7 +92,9 @@ const Navbar = () => {
                     </div>
 
                     <div  style={isMobile ? {display: "none"} : {display: "flex"}}>
-                        <Link to={"#"} className="nav_end_btn">Контакты</Link>
+                        <Link to={CONTACT}
+                              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                              className="nav_end_btn">Контакты</Link>
                     </div>
 
                     <div className="navburger" onClick={toggleMenu}>

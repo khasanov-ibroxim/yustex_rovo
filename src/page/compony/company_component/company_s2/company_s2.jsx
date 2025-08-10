@@ -11,7 +11,7 @@ const CompanyS2 = () => {
         <div className="company_s2">
             <div className="current-container">
                 <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <div className="company_s2_item">
                             <div className="company_s2_img">
                                 <img src={img1} alt=""/>
@@ -25,7 +25,7 @@ const CompanyS2 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <div className="company_s2_item">
                             <div className="company_s2_img">
                                 <img src={img2} alt=""/>
@@ -41,7 +41,7 @@ const CompanyS2 = () => {
                     </div>
                 </div>
                 <div className="row d-flex justify-content-center align-items-center">
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <div className="company_s2_item">
                             <div className="company_s2_img">
                                 <img src={img3} alt=""/>
@@ -54,7 +54,7 @@ const CompanyS2 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-5">
                         <div className="company_s2_item">
                             <div className="company_s2_img">
                                 <img src={img4} alt=""/>

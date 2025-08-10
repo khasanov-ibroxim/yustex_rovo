@@ -18,7 +18,18 @@ const Akyus = () => {
     };
     return (
         <div style={{position: "relative", background: "white", marginBottom: "100vh", paddingBottom: "100px"}}>
-          <Slider_home/>
+            <Slider_home/>
+            <div className="current-container">
+                <div className="akyus_text">
+                    <h1>AKYUS</h1>
+                    <p>запущенный в 2024 году, предлагает элегантные трикотажные решения для взрослых и комфортные
+                        образы
+                        для детей. Его философия — «Одежда, которая сопровождает вас в каждый момент жизни». AKYUS
+                        сочетает
+                        модные тенденции с классическим стилем, использует только натуральный хлопок и придерживается
+                        принципов экологичного производства.</p>
+                </div>
+            </div>
 
             <div className={"current-container"}>
                 <div className="akyus_content">

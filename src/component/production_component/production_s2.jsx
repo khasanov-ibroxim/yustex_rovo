@@ -50,7 +50,6 @@ const ProductionS2 = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <Production_s1/>
 

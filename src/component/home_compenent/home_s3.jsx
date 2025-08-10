@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Collapse } from 'antd';
-import { Link } from "react-router-dom";
+import {Collapse} from 'antd';
+import {Link} from "react-router-dom";
 
 import h_1 from "@/assets/home/h_s3/top-view-hands-holding-color-palette.jpg";
 import h_2 from "@/assets/home/h_s3/2O8A5113.jpg";
@@ -12,37 +12,31 @@ import h_5 from "@/assets/home/h_s3/DSC08582.jpg";
 const items = [
     {
         key: '1',
-        label: 'Мир цвета Pantone©',
-        children: <p>Цвет передаёт характер вашего бренда</p>,
-    },
-    {
-        key: '2',
         label: 'Точное соответствие',
         children: <p>Мы используем палитру Pantone© для точной передачи оттенков в печати.</p>,
     },
     {
-        key: '3',
+        key: '2',
         label: 'Гармония в деталях',
         children: <p>Правильно подобранный цвет усиливает восприятие дизайна и добавляет профессионализма.</p>,
     },
     {
-        key: '4',
+        key: '3',
         label: 'Тренды сезона',
         children: <p>Следим за обновлениями Pantone© и предлагаем актуальные цветовые решения.</p>,
     },
     {
-        key: '5',
+        key: '4',
         label: 'Цвет как стиль',
         children: <p>Каждый оттенок способен задать настроение и подчеркнуть индивидуальность вашей продукции.</p>,
     },
 ];
 
 const imageMap = {
-    '1': h_1,
-    '2': h_2,
-    '3': h_3,
-    '4': h_4,
-    '5': h_5,
+    '1': h_2,
+    '2': h_3,
+    '3': h_4,
+    '4': h_5,
 };
 
 
@@ -62,7 +56,7 @@ const HomeS3 = () => {
     const getStyle = () => {
         if (!isLargeScreen) return {}; // Ekran kichik bo‘lsa, style bo‘lmasin
         if (imageMap[activeKey] === h_4) return {height: '800px'};
-        if (imageMap[activeKey] === h_5) return { height: '800px' };
+        if (imageMap[activeKey] === h_5) return {height: '800px'};
         return {};
     };
     const onChange = (key) => {
@@ -75,8 +69,8 @@ const HomeS3 = () => {
             <div className="row">
                 <div className="col-lg-4">
                     <div className="home_s3_left">
-                        <h1>Everything you need in one place</h1>
-
+                        <h1>Мир цвета Pantone©</h1>
+                        <p>Цвет передаёт характер вашего бренда</p>
                         <Collapse
                             accordion
                             activeKey={activeKey}
@@ -85,7 +79,7 @@ const HomeS3 = () => {
                         />
 
                         <Link to="#">
-                            Продукция <ArrowForwardIcon />
+                            Продукция <ArrowForwardIcon/>
                         </Link>
                     </div>
                 </div>

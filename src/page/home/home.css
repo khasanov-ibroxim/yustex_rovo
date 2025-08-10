@@ -298,7 +298,9 @@
 .home_s3_left h1 {
     font-size: 50px;
     font-weight: bold;
-    margin-bottom: 80px;
+}
+.home_s3_left p {
+    margin-bottom: 50px;
 }
 
 .home_s3_left a {

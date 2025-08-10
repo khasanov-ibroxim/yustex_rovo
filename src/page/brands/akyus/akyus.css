@@ -1,3 +1,17 @@
+.akyus_text{
+    margin-top: 150px;
+    width: 80%;
+}
+.akyus_text h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.akyus_text p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e1e1e;
+}
+
 .akyus_box {
     position: relative;
     width: 100%;
