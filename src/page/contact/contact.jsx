@@ -16,10 +16,10 @@ import {message} from "antd";
 
 const Contact = () => {
     const {t} = useTranslation();
-    const [username , setUsername] = useState("");
-    const [tell , setTell] = useState("");
-    const [email , setEmail] = useState("");
-    const [userMessage , setMsg] = useState("");
+    const [username, setUsername] = useState("");
+    const [tell, setTell] = useState("");
+    const [email, setEmail] = useState("");
+    const [userMessage, setMsg] = useState("");
     const [messageApi, contextHolder] = message.useMessage();
     const [disabled, setDisabled] = useState(false);
 
@@ -93,7 +93,6 @@ const Contact = () => {
     };
 
 
-
     return (
         <div style={{position: "relative", background: "white", marginBottom: "100vh", paddingBottom: "100px"}}>
             {contextHolder}
@@ -125,7 +124,7 @@ const Contact = () => {
                                 <PlaceIcon/>
                             </div>
                             <h3>{t("contact.contact_box.address.title")}</h3>
-                            <a href={"#"}>г.Ташкент , Мирзо-Улугбекский район, МФУ Чингильды, улица Милий Бог</a>
+                            <a href={"https://maps.app.goo.gl/FGq9FtTpnym5ezr36"}>г.Ташкент , Мирзо-Улугбекский район, МФУ Чингильды, улица Милий Бог</a>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="col-lg-3">
@@ -188,14 +187,15 @@ const Contact = () => {
                                           onChange={(e) => setMsg(e.target.value)}
                                           placeholder={t("contact.form_box.msg")}/>
                             </div>
-                            <button type={"submit"} disabled={disabled} onClick={checkForm}>{t("contact.form_box.send")}</button>
+                            <button type={"submit"} disabled={disabled}
+                                    onClick={checkForm}>{t("contact.form_box.send")}</button>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div className="contact_map">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2290.418950321312!2d69.25242879999999!3d41.31617310000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b48a35ed52f%3A0x6d868958ae00961!2sTashkent%20City%20Mall!5e1!3m2!1sru!2s!4v1742402926622!5m2!1sru!2s"
-                                width="100%" height="100%" allowFullScreen="" loading="lazy"
+                                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2851.573665891974!2d69.459227!3d41.332619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDE5JzU3LjQiTiA2OcKwMjcnMzMuMiJF!5e1!3m2!1sru!2s!4v1754905955213!5m2!1sru!2s"
+                                width="100%" height="100%"  allowFullScreen="" loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
