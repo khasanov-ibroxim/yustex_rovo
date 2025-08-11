@@ -110,7 +110,7 @@
 }
 
 .box_oborod img {
-    width: calc(100% / 5);
+    width: calc(60% / 5);
     height: 100%;
     object-fit: contain;
 }
