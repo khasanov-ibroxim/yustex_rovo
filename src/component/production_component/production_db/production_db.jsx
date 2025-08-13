@@ -2,9 +2,9 @@ import h_s2_1 from "@/assets/production/production_s2/DSC08836.jpg";
 import h_s2_2 from "@/assets/production/production_s2/DSC09008.jpg";
 
 import pr_s2_1_edited from "@/assets/production/production_s2/DEW05948.jpg"
-import pr_s2_1 from "@/assets/production/production_s2/DEW05776.jpg"
+import pr_s2_1 from "@/assets/production/production_s2/DEW05789.jpg"
 import pr_s2_2 from "@/assets/production/production_s2/DEW06167.jpg"
-import pr_s2_3 from "@/assets/production/production_s2/DEW06318.jpg"
+import pr_s2_3 from "@/assets/production/production_s2/DEW06320.jpg"
 
 import pr_s4_1 from "@/assets/production/production_s4/image_2025-07-07_21-48-18.png"
 import pr_s4_1_element from "@/assets/production/production_s4/image_2025-07-07_21-48-31.png"

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import production_headerImg from "@/assets/production/production_header/DEW06241.jpg"
+import production_headerImg from "@/assets/production/production_header/DEW06245.jpg"
 
 const ProductionHeader = () => {
     return (

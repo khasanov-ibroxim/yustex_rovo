@@ -7,6 +7,8 @@ import obor_2 from "@/assets/home/h_s1/oborod/d895774709bf356170b4d3451d4b5ded.p
 import obor_3 from "@/assets/home/h_s1/oborod/juki-4.svg"
 import obor_4 from "@/assets/home/h_s1/oborod/ozbilimlogobeyaz.png"
 import obor_5 from "@/assets/home/h_s1/oborod/sulfet.png"
+import obor_6 from "@/assets/home/h_s1/oborod/gerber-logo.png"
+import obor_7 from "@/assets/home/h_s1/oborod/logo-gemini-a-lectra-company-RVB.svg"
 
 import ser_1 from "@/assets/home/h_s1/sertf/46.png"
 import ser_2 from "@/assets/home/h_s1/sertf/85beb0e98d62281da12a61c7b8863518.png"
@@ -43,6 +45,8 @@ const HomeS1 = () => {
                     <img src={obor_3} alt=""/>
                     <img src={obor_4} alt=""/>
                     <img src={obor_5} alt=""/>
+                    <img src={obor_6} alt=""/>
+                    <img src={obor_7} alt=""/>
                 </div>
                 <h1>Сертификаты</h1>
                 <div className="box_oborod">

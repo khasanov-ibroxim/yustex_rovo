@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://yustex.uz
+
+# Sitemaps
+Sitemap: https://yustex.uz/sitemap.xml
