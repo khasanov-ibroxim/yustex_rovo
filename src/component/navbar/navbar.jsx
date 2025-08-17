@@ -64,38 +64,45 @@ const Navbar = () => {
                 </div>
                 <div className={`nav_menu ${isMenuOpen ? 'open' : ''}`}>
                     <ul>
-                        <li><Link to={COMPANY} onClick={() =>{
+                        <li><Link to={COMPANY} onClick={() => {
                             window.scrollTo({top: 0, behavior: "smooth"});
                             setIsMenuOpen(false);
                         }}>{t("navbar.company")}</Link></li>
-                            <li className={"dropdown_nav"}><Link to={"#"}>{t("navbar.brand")}</Link>
+                        <li className={"dropdown_nav"}><Link to={"#"}>{t("navbar.brand")}</Link>
                             <ol className={"dropdown_menu"}>
-                            <li><Link onClick={() =>{
-                                window.scrollTo({top: 0, behavior: "smooth"});
-                                setIsMenuOpen(false);
-                            }} to={BRAND_AKYUS}>Akyus</Link></li>
-                            <li><Link onClick={() =>{
-                                window.scrollTo({top: 0, behavior: "smooth"});
-                                setIsMenuOpen(false);
-                            }} to={"#"}>Liberty</Link></li>
-                            <li><Link onClick={() =>{
-                                window.scrollTo({top: 0, behavior: "smooth"});
-                                setIsMenuOpen(false);
-                            }} to={"#"}>Магазины</Link></li>
-
-                        </ol>
+                                <li><Link onClick={() => {
+                                    window.scrollTo({top: 0, behavior: "smooth"});
+                                    setIsMenuOpen(false);
+                                }} to={BRAND_AKYUS}>Akyus</Link></li>
+                                <li><Link onClick={() => {
+                                    window.scrollTo({top: 0, behavior: "smooth"});
+                                    setIsMenuOpen(false);
+                                }} to={"#"}>Liberty</Link></li>
+                                <li><Link onClick={() => {
+                                    window.scrollTo({top: 0, behavior: "smooth"});
+                                    setIsMenuOpen(false);
+                                }} to={"#"}>Магазины</Link></li>
+                            </ol>
                         </li>
                         <li><Link to={PRODUCTION}
-                                  onClick={() =>{
+                                  onClick={() => {
                                       window.scrollTo({top: 0, behavior: "smooth"});
                                       setIsMenuOpen(false);
                                   }}>{t("navbar.production")}</Link></li>
                         <li><Link to={PRODUCT}
-                                  onClick={() =>{
+                                  onClick={() => {
                                       window.scrollTo({top: 0, behavior: "smooth"});
                                       setIsMenuOpen(false);
                                   }}>{t("navbar.product")}</Link></li>
                         <li><Link to={"https://tashkent.hh.uz/"}>{t("navbar.vacancy")}</Link></li>
+                        <li style={isMobile ? {display: "flex"} : {display: "none"}}>
+                            <Link to={CONTACT}
+                                  onClick={() => {
+                                      window.scrollTo({top: 0, behavior: "smooth"});
+                                      setIsMenuOpen(false);
+                                  }}
+                                  className="nav_end_btn">{t("navbar.contact")}</Link>
+                        </li>
                     </ul>
                 </div>
                 <div className="nav_end">

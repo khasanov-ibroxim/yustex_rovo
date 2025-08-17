@@ -51,8 +51,9 @@
 
 @media screen and (max-width: 1000px) {
     .production_header_text {
-        padding-top: 100px;
+        padding-top: 110px;
         padding-bottom: 50px;
+        padding-left: 25px;
     }
 
     .production_header_text h1 {
@@ -63,7 +64,10 @@
         height: 50vh;
     }
     .production_title{
-        font-size: 45px;
+        font-size: 30px;
+    }
+    .production_s2_content_box{
+        margin-top: 0 !important;
     }
 }
 
@@ -116,7 +120,8 @@
     border-radius: 20px;
 }
 @media screen and (max-width: 1000px) {
-    .production_s1_img{margin-left: 0}
+    .production_s1_img{margin-left: 0 ;
+        height: auto;}
 }
 
 

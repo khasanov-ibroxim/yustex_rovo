@@ -81,6 +81,12 @@
     .timeline_line{
         left: 2.8%;
     }
+    .pr-s3-title h2{
+        font-size: 30px;
+    }
+    .pr-s3-gif{
+        height: auto;
+    }
 }
 @media screen and (max-width: 750px){
     .timeline_line{

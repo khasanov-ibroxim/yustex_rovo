@@ -91,7 +91,7 @@
 @media screen and (max-width: 1000px){
     .akyus_text{
         width: 100%;
-
+        margin-top: 50px;
     }
     .akyus_text h1{
         font-size: 35px;
@@ -99,11 +99,20 @@
     .akyus_text p{
         font-size: 18px;
     }
+    .akyus_content{
+        margin-top: 50px;
+    }
+    .akyus_index_box .current-container{
+        padding: 0 !important;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .product_item {
         height: 100%;
+    }
+    .akyus_text h1, .akyus_text h2{
+        font-size: 30px;
     }
     .akyus_tabs_box{
         flex-wrap: wrap;

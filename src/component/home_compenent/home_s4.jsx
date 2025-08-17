@@ -72,7 +72,7 @@ const HomeS4 = () => {
                     h_4;
 
     return (
-        <section className="current-container" style={{ marginTop: "140px", marginBottom: "100px" }}>
+        <section className="current-container h_s4" >
             <div className="home_s1_top_left" style={{ marginBottom: "40px" }}>
                 <span>{t("home.home_steps.subtitle")}</span>
                 <h2>{t("home.home_steps.title")}</h2>

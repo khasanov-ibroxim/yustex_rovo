@@ -52,6 +52,7 @@
     border-radius: 20px;
     text-decoration: none;
     margin-right: 20px;
+    text-wrap: nowrap;
 }
 
 .home_header_box_btns a:first-child:hover {
@@ -61,7 +62,7 @@
 .home_header_box_btns a:last-child {
     font-weight: 600;
     color: #000;
-
+    text-wrap: nowrap;
     text-decoration: none;
 
 }
@@ -120,7 +121,10 @@
     width: 100%;
     justify-content: space-between;
 }
-
+.h_s4{
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
 .home_s1_top_left {
     width: 48%;
 }
@@ -157,6 +161,23 @@
     }
 
     .home_s1_top_left, .home_s1_top_right {
+        width: 100%;
+    }
+    .h_s4{
+        margin-top: 50px !important;
+        margin-bottom: 40px;
+    }
+    .home_s1_top_left h2{
+        font-size: 25px;
+    }
+    .home_s4_img{
+        height: auto !important;
+    }
+    .home_s1_top_left span{
+        font-size: 16px;
+    }
+    .box_oborod{
+        flex-wrap: wrap;
         width: 100%;
     }
 }
@@ -443,5 +464,17 @@
     }
     .home_s2_box h1{
         font-size: 30px;
+    }
+    .home_s2_box h2{
+        font-size: 25px;
+    }
+    .home_s3_left h2{
+        font-size: 30px;
+    }
+    .box_sertf h4{
+        font-size: 30px;
+    }
+    .footer_form_box_text h3{
+        font-size: 30px !important;
     }
 }

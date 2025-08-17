@@ -27,24 +27,27 @@ const Akyus = () => {
                 </div>
             </div>
 
-            <div className={"current-container"}>
-                <div className="akyus_content">
-                    <div className="row">
-                        {Akyus_db.filter(item => activeCat === "all" || item.cat_name === activeCat)
-                            .map((item, index) => (
-                                <div className="col-lg-4 col-6" key={index}
-                                     onMouseEnter={() => setHoveredIndex(index)}
-                                     onMouseLeave={() => setHoveredIndex(null)}
-                                >
-                                    <div className="product_item">
-                                        <img src={imgChecker(item.img_path, index)} alt="product"/>
+            <div className="akyus_index_box">
+                <div className={"current-container"}>
+                    <div className="akyus_content">
+                        <div className="row">
+                            {Akyus_db.filter(item => activeCat === "all" || item.cat_name === activeCat)
+                                .map((item, index) => (
+                                    <div className="col-lg-4 col-6" key={index}
+                                         onMouseEnter={() => setHoveredIndex(index)}
+                                         onMouseLeave={() => setHoveredIndex(null)}
+                                    >
+                                        <div className="product_item">
+                                            <img src={imgChecker(item.img_path, index)} alt="product"/>
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                ))}
 
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
     );

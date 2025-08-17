@@ -70,4 +70,12 @@
         right: 0;
         background: none;
     }
+    .HomeCorusel{
+        align-items: initial;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .logos{
+        padding: 0;
+    }
 }

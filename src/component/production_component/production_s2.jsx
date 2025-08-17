@@ -18,7 +18,7 @@ const ProductionS2 = () => {
                 {/* Har bir itemni map bilan aylantiramiz */}
                 {productDB.map((item, index) => (
                     <div key={index} className="production_s2_content">
-                        <div className="row mt-5">
+                        <div className="row mt-2">
                             <div className="col-lg-5">
                                 <div className="production_s2_content_text">
                                     <h2>{item.h1}</h2>

@@ -76,7 +76,7 @@ export const home_translate = {
             p:`We are one of the leading factories producing cotton clothing, <br/> where every stitch speaks of quality and every design reflects individuality.`,
             link_1:"Submit a Request",
             link_2:"Contact Us",
-            corusel:"They work with us"
+            corusel:"Our Partners"
         },
         home_steps:{
             subtitle:"Why Choose Us",
