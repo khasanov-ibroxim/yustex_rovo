@@ -94,7 +94,7 @@
     align-items: center;
 }
 
-.box_sertf h1 {
+.box_sertf h4 {
     padding: 30px 0;
     font-size: 45px;
     font-weight: 700;
@@ -321,7 +321,7 @@
     margin-bottom: 50px;
 }
 
-.home_s2_box h1 {
+.home_s2_box h2 {
     font-size: 50px;
     font-weight: bold;
 }
@@ -332,7 +332,7 @@
 }
 
 
-.home_s3_left h1 {
+.home_s3_left h2 {
     font-size: 50px;
     font-weight: bold;
 }

@@ -17,28 +17,26 @@ import ser_4 from "@/assets/home/h_s1/sertf/oeko-tex-logo-2048x655.png"
 import ser_5 from "@/assets/home/h_s1/sertf/sedex.png"
 import ser_6 from "@/assets/home/h_s1/sertf/sertifikat-iso-90012015-round.png"
 import {CONTACT} from "@/utils/consts.jsx";
+import {useTranslation} from "react-i18next";
 
 const HomeS1 = () => {
-
+    const {t} = useTranslation()
     return (
         <section className={"home_s1"}>
             <div className="home_s1_top current-container">
                 <div className="home_s1_top_left">
-                    <span>Работаем с заботой о каждой детали</span>
-                    <h2>Мы ценим доверие и строим партнёрство на качестве и ответственности.</h2>
+                    <span>{t("home.home_s1.span")}</span>
+                    <h2>{t("home.home_s1.h2")}</h2>
                 </div>
                 <div className="home_s1_top_right">
-                    <p>Мы используем только проверенные и сертифицированные материалы, соответствующие высоким
-                        стандартам. Каждый этап — от закупки сырья до упаковки — проходит строгий контроль качества. Мы
-                        гибко подходим к задачам любого масштаба и всегда остаёмся открытыми и честными в общении с
-                        клиентами.</p>
-                    <Link to={CONTACT}>Связаться с нами <ArrowForwardIcon/></Link>
+                    <p>{t("home.home_s1.p")}</p>
+                    <Link to={CONTACT}>{t("home.home_s1.link")} <ArrowForwardIcon/></Link>
                 </div>
             </div>
 
 
             <div className="box_sertf">
-                <h1>Оборудование</h1>
+                <h4>{t("home.home_s1.ob")}</h4>
                 <div className="box_oborod">
                     <img src={obor_1} alt=""/>
                     <img src={obor_2} alt=""/>
@@ -48,7 +46,7 @@ const HomeS1 = () => {
                     <img src={obor_6} alt=""/>
                     <img src={obor_7} alt=""/>
                 </div>
-                <h1>Сертификаты</h1>
+                <h4>{t("home.home_s1.ser")}</h4>
                 <div className="box_oborod">
                     <img src={ser_1} alt=""/>
                     <img src={ser_3} alt=""/>

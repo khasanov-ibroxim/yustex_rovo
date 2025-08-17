@@ -1,35 +1,33 @@
 import React, { useEffect, useRef } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
+import {useTranslation} from "react-i18next";
 
-const steps = [
-    {
-        title: "Индивидуальный подход к дизайну",
-        description: `Разрабатываем дизайн, подбираем ткани и фурнитуру, согласовываем каждый элемент с заказчиком.
-Можем работать как по вашему техзаданию, так и предложить собственные решения.`,
-    },
-    {
-        title: "Стабильное и отлаженное производство",
-        description: `После утверждения запускаем процесс в швейном цеху с использованием современных технологий.
-Наша фабрика работает с 2011 года и выпускает продукцию для известных брендов.`,
-    },
-    {
-        title: "Контроль на каждом этапе",
-        description: `Качество проверяется в процессе и после пошива: чистка, упаковка и подготовка к отгрузке — под строгим контролем.
-Мы используем систему внутреннего контроля, чтобы каждая партия соответствовала стандартам.`,
-    },
-    {
-        title: "Опыт и доверие",
-        description: `Более 12 лет на рынке и сотрудничество с 30+ брендами в странах СНГ — это не просто цифры, а подтверждённая надёжность.
-Мы уверены в результате и даём 100% гарантию удовлетворения.`,
-    },
-];
+
 
 const Timeline = () => {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true });
     const controls = useAnimation();
     const lineControls = useAnimation();
-
+    const {t} = useTranslation();
+    const steps = [
+        {
+            title: t("product.product_s3.i1.t"),
+            description: t("product.product_s3.i1.d"),
+        },
+        {
+            title: t("product.product_s3.i2.t"),
+            description: t("product.product_s3.i2.d"),
+        },
+        {
+            title: t("product.product_s3.i3.t"),
+            description: t("product.product_s3.i3.d"),
+        },
+        {
+            title: t("product.product_s3.i4.t"),
+            description: t("product.product_s3.i4.d"),
+        },
+    ];
     useEffect(() => {
         if (isInView) {
             controls.start('visible');

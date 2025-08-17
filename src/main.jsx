@@ -11,12 +11,20 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {BrowserRouter} from "react-router-dom";
 import {LanguageProvider} from "@/utils/lang/LangContext.jsx";
+import SchemaManager from "@/component/schema/schema_manager.jsx";
+import {onCLS, onINP, onLCP} from "web-vitals";
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
-        <LanguageProvider>
-            <App/>
-        </LanguageProvider>
+    <StrictMode>
+        <BrowserRouter>
+            <SchemaManager/>
+            <LanguageProvider>
+                <App/>
+            </LanguageProvider>
 
-    </BrowserRouter>,
+        </BrowserRouter>
+    </StrictMode>
 )
+onCLS(console.log);
+onINP(console.log);
+onLCP(console.log);

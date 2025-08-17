@@ -2,10 +2,12 @@ import i18n from "i18next";
 import {initReactI18next} from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import {home_translate} from "@/utils/lang/translates/home_translate.jsx";
-import {about_translate} from "@/utils/lang/translates/about_translate.jsx";
-import {faqs_translate} from "@/utils/lang/translates/faqs_translate.jsx";
+import {company_translate} from "@/utils/lang/translates/company_translate.jsx";
 import {contact_translate} from "@/utils/lang/translates/contact_translate.jsx";
-import {products_translate} from "@/utils/lang/translates/products_translate.jsx";
+import {product_translate} from "@/utils/lang/translates/product_translate.jsx";
+import {production_translate} from "@/utils/lang/translates/production_translate.jsx";
+import {brand_translate} from "@/utils/lang/translates/brand_translate.jsx";
+
 
 i18n
     .use(initReactI18next)
@@ -19,98 +21,113 @@ i18n
             ru: {
                 translation: {
                     home: home_translate.ru,
-                    about: about_translate.ru,
-                    faqs: faqs_translate.ru,
-                    products:products_translate.ru,
+                    company: company_translate.ru,
                     contact: contact_translate.ru,
+                    product: product_translate.ru,
+                    production: production_translate.ru,
+                    brand: brand_translate.ru,
                     navbar: {
                         home: "Главная",
-                        faqs: "Вопросы",
-                        about: "О нас",
-                        products:"Продукция",
+                        company: "О Компании",
+                        brand: "Бренд",
+                        production: "Производство",
+                        product: "Продукция",
+                        vacancy: "Вакансии",
                         contact: "Контакты"
                     },
-                    footer: {
-                        item_1: {
-                            text: "Будь вы трендсеттером, поклонником минимализма или искателем приключений, в Akyus найдется стиль для каждого. Наш широкий ассортимент подчеркнет вашу уникальность.",
-
+                    footer_form: {
+                        h3: "Заинтересовались?",
+                        p: `Это только начало.
+                        Советы по выбору тканей, идеи дизайна, примеры нашей продукции и закулисье процесса печати — всё
+                        это вы найдёте в нашей рассылке. Подпишитесь и будьте ближе к миру стильной и качественной
+                        одежды.`,
+                        placeholder: "Телефон",
+                        send: "Отправить"
+                    },
+                    footer:{
+                        i1:"г.Ташкент , Мирзо-Улугбекский район, МФУ Чингильды, улица Милий Бог",
+                        i2:{
+                            title:"Меню",
+                            l1:"Главная",
+                            l2:"Производство",
+                            l3:"Продукция"
                         },
-                        item_2:{
-                            title:"О нас",
-                            os:"Наша история",
-                            om:"Наша миссия",
-                            contact:"Свяжитесь с нами"
-                        },
-                        item_3:{
+                        i3:{
                             title:"Покупателям",
-                            i1:"Доставка и оплата",
-                            i2:"Вопросы"
+                            l1:"Доставка и оплата",
+                            l2:"Вопросы"
                         },
-                        item_4:{
+                        i4:{
                             title:"Следите за нами",
-                            text:`Будьте в курсе новинок и акций`
+                            p:"Будьте в курсе новинок и акций"
                         },
-                        item_5:{
+                        i5:{
                             title:"Связаться с нами",
-                            text:"Задайте вопрос или оформите заказ — мы всегда на связи",
-                            btn:"Контакты"
+                            p:"Задайте вопрос или оформите заказ — мы всегда на связи",
+                            link:"Контакты"
                         }
                     },
-                    errors:{
-                        success:"A message has been sent, we will contact you shortly",
-                        name_empty:"Your name cannot be empty",
-                        name_error:"You typed your name incorrectly",
-                        tell_error:"Your phone number is incorrect",
-                        server_error:"A system error has occurred"
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
                     }
                 }
             },
             en: {
                 translation: {
                     home: home_translate.en,
-                    about: about_translate.en,
-                    faqs: faqs_translate.en,
-                    products:products_translate.en,
+                    company: company_translate.en,
                     contact: contact_translate.en,
+                    product: product_translate.en,
+                    production: production_translate.en,
+                    brand: brand_translate.en,
                     navbar: {
-                        home: "Home",
-                        faqs: "FAQ",
-                        about: "About us",
-                        products:"Products",
-                        contact: "Contact"
+                        home: "home",
+                        company: "About Us",
+                        brand: "Brand",
+                        production: "Production",
+                        product: "Products",
+                        vacancy: "Careers",
+                        contact: "Contacts"
                     },
-                    footer: {
-                        item_1: {
-                            text: `Whether you're a trendsetter, a minimalist, or an adventurer — at Akyus, there's a style for everyone.
-Our wide range of products highlights your uniqueness.`
+                    footer_form: {
+                        h3: "Interested?",
+                        p: `This is just the beginning. Fabric selection tips, design ideas, examples of our products, and a behind-the-scenes look at the printing process — you’ll find it all in our newsletter. Subscribe and get closer to the world of stylish, high-quality clothing.`,
+                        placeholder: "Phone",
+                        send: "Send"
+                    },
+                    footer:{
+                        i1:"Tashkent, Mirzo-Ulugbek District, Chingildy MFI, Milliy Bog Street",
+                        i2:{
+                            title:"Menu",
+                            l1:"Home",
+                            l2:"Production",
+                            l3:"Products",
                         },
-                        item_2:{
-                            title:"About Us",
-                            os:"Our Story",
-                            om:"Our Mission",
-                            contact:"Contact Us"
-                        },
-                        item_3:{
+                        i3:{
                             title:"For Customers",
-                            i1:"Delivery & Payment",
-                            i2:"FAQ"
+                            l1:"Delivery & Payment",
+                            l2:"FAQ"
                         },
-                        item_4:{
+                        i4:{
                             title:"Follow Us",
-                            text:`Stay updated on new arrivals and special offers.`
+                            p:"Stay updated on new arrivals and special offers"
                         },
-                        item_5:{
-                            title:"Get in Touch",
-                            text:"Have a question or want to place an order? We're always here for you.",
-                            btn:"Contact"
+                        i5:{
+                            title:"Contact Us",
+                            p:"Ask a question or place an order — we’re always here for you",
+                            link:"Contacts"
                         }
                     },
-                    errors:{
-                        success:"A message has been sent, we will contact you shortly",
-                        name_empty:"Your name cannot be empty",
-                        name_error:"You typed your name incorrectly",
-                        tell_error:"Your phone number is incorrect",
-                        server_error:"A system error has occurred"
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
                     }
                 }
             },

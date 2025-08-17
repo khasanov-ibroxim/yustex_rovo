@@ -3,11 +3,12 @@ import "./akyus.css"
 import {Akyus_db} from "@/page/brands/akyus/akyus_db.jsx";
 import {Swiper, SwiperSlide} from "swiper/react";
 import Slider_home from "@/page/brands/akyus/slide/slider_home.jsx";
+import {useTranslation} from "react-i18next";
 
 const Akyus = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null); // ✅ fixed
     const [activeCat, setActiveCat] = useState("all")
-
+    const {t} = useTranslation();
 
     const imgChecker = (product, index) => {
         if (Array.isArray(product)) {
@@ -21,13 +22,8 @@ const Akyus = () => {
             <Slider_home/>
             <div className="current-container">
                 <div className="akyus_text">
-                    <h1>AKYUS</h1>
-                    <p>запущенный в 2024 году, предлагает элегантные трикотажные решения для взрослых и комфортные
-                        образы
-                        для детей. Его философия — «Одежда, которая сопровождает вас в каждый момент жизни». AKYUS
-                        сочетает
-                        модные тенденции с классическим стилем, использует только натуральный хлопок и придерживается
-                        принципов экологичного производства.</p>
+                    <h1>{t("brand.akyus.h1")}</h1>
+                    <p>{t("brand.akyus.p")}</p>
                 </div>
             </div>
 

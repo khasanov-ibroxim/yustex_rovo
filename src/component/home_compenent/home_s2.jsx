@@ -6,21 +6,20 @@ import {Home_s2_db} from "@/component/home_compenent/home_db/home_s2_db.jsx";
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {CONTACT} from "@/utils/consts.jsx";
+import {useTranslation} from "react-i18next";
 
 const HomeS2 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
-
+    const {t} = useTranslation();
     return (
         <section className={"current-container"}
                  style={{position: "relative", marginTop: "100px", marginBottom: "100px"}}>
             <div className="home_s2_box ">
-                <h1>Где качество встречает <br/> индивидуальность</h1>
-                <p>Наша продукция — это гармония качества и индивидуального подхода. <br/>
-                    Мы объединяем современные технологии, безупречный вкус и <br/>
-                    ответственное производство в каждой детали.</p>
+                <h2 dangerouslySetInnerHTML={{__html:t("home.home_s2.title")}}></h2>
+                <p dangerouslySetInnerHTML={{__html:t("home.home_s2.p")}}></p>
                 <div className="home_header_box_btns">
-                    <Link to={CONTACT}>Оставить заявку </Link>
-                    <Link to={CONTACT}>Связаться с нами <ArrowForwardIcon/> </Link>
+                    <Link to={CONTACT}>{t("home.home_s2.link_1")}</Link>
+                    <Link to={CONTACT}>{t("home.home_s2.link_2")} <ArrowForwardIcon/> </Link>
                 </div>
             </div>
             {/*<div className="custom-nav" data-aos="fade-up">*/}

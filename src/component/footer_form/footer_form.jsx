@@ -55,19 +55,15 @@ const FooterForm = () => {
             {contextHolder}
             <div className="footer_form_box">
                 <div className="footer_form_box_text">
-                    <h1>Заинтересовались?
-                    </h1>
-                    <p>Это только начало.
-                        Советы по выбору тканей, идеи дизайна, примеры нашей продукции и закулисье процесса печати — всё
-                        это вы найдёте в нашей рассылке. Подпишитесь и будьте ближе к миру стильной и качественной
-                        одежды.</p>
+                    <h3>{t("footer_form.h3")}</h3>
+                    <p>{t("footer_form.p")}</p>
                 </div>
                 <div className="footer_form_box_input">
                     <input type="tel"
                            value={tell}
                            onChange={(e) => setTell(e.target.value)}
-                           placeholder={"Телефон"}/>
-                    <button disabled={disabled} onClick={checkForm}>Отправить</button>
+                           placeholder={t("footer_form.placeholder")}/>
+                    <button disabled={disabled} onClick={checkForm}>{t("footer_form.send")}</button>
                 </div>
             </div>
         </div>

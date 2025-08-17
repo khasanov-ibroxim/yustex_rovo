@@ -3,16 +3,18 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import img1 from "@/assets/company/company_s1/DEW06442.jpg"
 import img2 from "@/assets/company/company_s1/DEW05999.jpg"
 import {Autoplay} from "swiper/modules";
+import {useTranslation} from "react-i18next";
 
 
 const CompanyS1 = () => {
+    const {t} = useTranslation();
     return (
         <div>
             <div className={"company_header"}>
                 <div className="company_header_opacity"></div>
                 <div className="company_header_box">
                     <div className="company_header_title">
-                        <h1>О КОМПАНИИ</h1>
+                        <h1>{t("company.company_s1.h1")}</h1>
                     </div>
                 </div>
 
@@ -29,12 +31,8 @@ const CompanyS1 = () => {
             </div>
             <div className="current-container">
                 <div className="akyus_text" style={{marginTop:"30px"}}>
-                    <h1>ООО " YUSTEX "</h1>
-                    <p>
-                        по праву считается одним из наиболее ярких и динамично развивающихся текстильных
-                        предприятий Узбекистана. Начиная с 2019 года, наша компания совершила впечатляющий прорыв,
-                        утвердившись в статусе одного из лидеров в производстве высококачественной трикотажной
-                        одежды.</p>
+                    <h2>{t("company.company_s1.h2")}</h2>
+                    <p>{t("company.company_s1.p")}</p>
                 </div>
             </div>
 

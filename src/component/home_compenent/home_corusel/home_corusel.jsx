@@ -9,12 +9,14 @@ import p6 from "@/assets/home/partnior/partners-6.d9127a7f_256.png"
 import p7 from "@/assets/home/partnior/partners-7.929acbcb_256.jpg"
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Autoplay} from "swiper/modules";
+import {useTranslation} from "react-i18next";
 
 
 const HomeCorusel = () => {
+    const {t} = useTranslation();
     return (
         <div className="HomeCorusel current-container">
-            <div className="logo_text">С нами работают </div>
+            <div className="logo_text">{t("home.home_header.corusel")}</div>
             <div className="logos">
                 <Swiper
                     spaceBetween={20}

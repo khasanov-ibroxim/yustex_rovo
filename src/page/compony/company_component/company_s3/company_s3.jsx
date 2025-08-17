@@ -2,26 +2,18 @@ import React from 'react';
 import "./company_s3.css"
 
 import img1 from "@/assets/company/company_s3/DEW06056.jpg"
+import {useTranslation} from "react-i18next";
 
 
 const CompanyS3 = () => {
+    const {t} = useTranslation();
     return (
         <div className={"current-container"}>
             <div className="row s3_row">
                 <div className="col-6">
                     <div className="company_s3_text">
-                        <h2>Девиз компании</h2>
-                        <p>
-                            «Наша цель — сделать узбекский текстиль символом качества и инноваций для всего мира». <br/>
-                            Продукция YUSTEX экспортируется в Россию, Европу и страны Центральной Азии, завоевывая
-                            доверие потребителей благодаря высокому качеству, комфорту и уникальному дизайну.
-                            В компании трудятся более 1000 сотрудников, ежедневно выпуская до 35 000 изделий. За строгий
-                            контроль качества отвечают более 50 инспекторов, обеспечивая соответствие продукции
-                            международным стандартам. <br/>
-                            Наша приверженность высочайшим стандартам подтверждена наличием престижных международных
-                            сертификатов: WRAP, SEDEX и OEKO-TEX. Это залог качества, безопасности и этичности нашей
-                            продукции и производственных процессов.
-                        </p>
+                        <h2>{t("company.company_s3.h2")}</h2>
+                        <p dangerouslySetInnerHTML={{__html:t("company.company_s3.p")}}></p>
                     </div>
                 </div>
                 <div className="col-6">

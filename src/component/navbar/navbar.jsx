@@ -67,8 +67,8 @@ const Navbar = () => {
                         <li><Link to={COMPANY} onClick={() =>{
                             window.scrollTo({top: 0, behavior: "smooth"});
                             setIsMenuOpen(false);
-                        }}>О Компании</Link></li>
-                            <li className={"dropdown_nav"}><Link to={"#"}>Бренд</Link>
+                        }}>{t("navbar.company")}</Link></li>
+                            <li className={"dropdown_nav"}><Link to={"#"}>{t("navbar.brand")}</Link>
                             <ol className={"dropdown_menu"}>
                             <li><Link onClick={() =>{
                                 window.scrollTo({top: 0, behavior: "smooth"});
@@ -89,13 +89,13 @@ const Navbar = () => {
                                   onClick={() =>{
                                       window.scrollTo({top: 0, behavior: "smooth"});
                                       setIsMenuOpen(false);
-                                  }}>Производство</Link></li>
+                                  }}>{t("navbar.production")}</Link></li>
                         <li><Link to={PRODUCT}
                                   onClick={() =>{
                                       window.scrollTo({top: 0, behavior: "smooth"});
                                       setIsMenuOpen(false);
-                                  }}>Продукция</Link></li>
-                        <li><Link to={"https://tashkent.hh.uz/"}>Вакансии</Link></li>
+                                  }}>{t("navbar.product")}</Link></li>
+                        <li><Link to={"https://tashkent.hh.uz/"}>{t("navbar.vacancy")}</Link></li>
                     </ul>
                 </div>
                 <div className="nav_end">
@@ -121,7 +121,7 @@ const Navbar = () => {
                                   window.scrollTo({top: 0, behavior: "smooth"});
                                   setIsMenuOpen(false);
                               }}
-                              className="nav_end_btn">Контакты</Link>
+                              className="nav_end_btn">{t("navbar.contact")}</Link>
                     </div>
 
                     <div className="navburger" onClick={toggleMenu}>

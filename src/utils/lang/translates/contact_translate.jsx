@@ -23,7 +23,7 @@ export const contact_translate = {
 
     },
     en: {
-        header: "Contact",
+        header: "Contacts",
         contact_box: {
             address: {
                 title: "Store Address",

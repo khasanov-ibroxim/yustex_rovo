@@ -9,41 +9,42 @@ import h_3 from "@/assets/home/h_s3/sewing-machine-work-textile-fabric-nobody.jp
 import h_4 from "@/assets/home/h_s3/DSC08732.jpg";
 import h_5 from "@/assets/home/h_s3/DSC08582.jpg";
 import {PRODUCT} from "@/utils/consts.jsx";
-
-const items = [
-    {
-        key: '1',
-        label: 'Точное соответствие',
-        children: <p>Мы используем палитру Pantone© для точной передачи оттенков в печати.</p>,
-    },
-    {
-        key: '2',
-        label: 'Гармония в деталях',
-        children: <p>Правильно подобранный цвет усиливает восприятие дизайна и добавляет профессионализма.</p>,
-    },
-    {
-        key: '3',
-        label: 'Тренды сезона',
-        children: <p>Следим за обновлениями Pantone© и предлагаем актуальные цветовые решения.</p>,
-    },
-    {
-        key: '4',
-        label: 'Цвет как стиль',
-        children: <p>Каждый оттенок способен задать настроение и подчеркнуть индивидуальность вашей продукции.</p>,
-    },
-];
-
-const imageMap = {
-    '1': h_2,
-    '2': h_3,
-    '3': h_4,
-    '4': h_5,
-};
-
+import {useTranslation} from "react-i18next";
 
 const HomeS3 = () => {
     const [activeKey, setActiveKey] = useState('1');
     const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1000);
+    const { t } = useTranslation();
+    const items = [
+        {
+            key: '1',
+            label: t("home.home_s3.i1.t"),
+            children: <p>{t("home.home_s3.i1.d")}</p>,
+        },
+        {
+            key: '2',
+            label: t("home.home_s3.i2.t"),
+            children: <p>{t("home.home_s3.i2.d")}</p>,
+        },
+        {
+            key: '3',
+            label: t("home.home_s3.i3.t"),
+            children: <p>{t("home.home_s3.i3.d")}</p>,
+        },
+        {
+            key: '4',
+            label: t("home.home_s3.i4.t"),
+            children: <p>{t("home.home_s3.i4.d")}</p>,
+        },
+    ];
+
+    const imageMap = {
+        '1': h_2,
+        '2': h_3,
+        '3': h_4,
+        '4': h_5,
+    };
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -70,8 +71,8 @@ const HomeS3 = () => {
             <div className="row">
                 <div className="col-lg-4">
                     <div className="home_s3_left">
-                        <h1>Мир цвета Pantone©</h1>
-                        <p>Цвет передаёт характер вашего бренда</p>
+                        <h2>{t("home.home_s3.title")}</h2>
+                        <p>{t("home.home_s3.subtitle")}</p>
                         <Collapse
                             accordion
                             activeKey={activeKey}
@@ -80,7 +81,7 @@ const HomeS3 = () => {
                         />
 
                         <Link to={PRODUCT}>
-                            Продукция <ArrowForwardIcon/>
+                            {t("home.home_s3.link")} <ArrowForwardIcon/>
                         </Link>
                     </div>
                 </div>

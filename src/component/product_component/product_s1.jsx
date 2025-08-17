@@ -2,20 +2,20 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {Production_s2_ind_db} from "@/component/production_component/production_db/production_db.jsx";
 import Product_card from "@/component/product_card/product_card.jsx";
+import {useTranslation} from "react-i18next";
 
 const ProductS1 = () => {
+    const {t} = useTranslation();
     return (
         <div style={{paddingTop: "150px"}}>
             <div className="current-container">
                 <div className="row">
                     <div className="col-lg-4 p-5 pt-0">
                         <div className="production_s2_content_text">
-                            <span style={{fontSize: "16px", color: "#1e1e1e", fontWeight: "700"}}>Натуральность в каждой нити</span>
-                            <h1>Мы выбираем то, что безопасно для вас и природы.</h1>
+                            <span style={{fontSize: "16px", color: "#1e1e1e", fontWeight: "700"}}>{t("product.product_s1.span")}</span>
+                            <h1>{t("product.product_s1.h1")}</h1>
                             <div className="production_s2_content_text_box" style={{margin: "0"}}>
-                                <p>В производстве мы используем 100% хлопок — дышащий, мягкий и гипоаллергенный материал.
-                                    Это экологичный выбор, подходящий даже для чувствительной кожи.
-                                    Качество ткани подтверждено стандартами, а комфорт ощущается с первого прикосновения.</p>
+                                <p>{t("product.product_s1.p")}</p>
                             </div>
                         </div>
                     </div>

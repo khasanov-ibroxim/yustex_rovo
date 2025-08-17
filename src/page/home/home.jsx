@@ -8,10 +8,14 @@ import Home_s3 from "@/component/home_compenent/home_s3.jsx";
 import Home_s4 from "@/component/home_compenent/home_s4.jsx";
 import Footer from "@/component/footer/footer.jsx";
 import Footer_form from "@/component/footer_form/footer_form.jsx";
+import {Helmet} from "react-helmet";
 
 const Home = () => {
     return (
         <div style={{position:"relative" , background:"white" , marginBottom:"100vh" , paddingBottom:"100px"}}>
+            <Helmet>
+                <link rel="canonical" href="https://yustex.uz/"/>
+            </Helmet>
             <Home_header/>
             {/*<Home_header_element/>*/}
             <Home_corusel/>

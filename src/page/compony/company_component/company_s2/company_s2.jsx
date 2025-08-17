@@ -4,9 +4,11 @@ import img1 from "@/assets/company/company_s2/DEW05748.jpg"
 import img2 from "@/assets/company/company_s2/DEW05864.jpg"
 import img3 from "@/assets/company/company_s2/DEW06128.jpg"
 import img4 from "@/assets/company/company_s2/DEW06094.jpg"
+import {useTranslation} from "react-i18next";
 
 
 const CompanyS2 = () => {
+    const {t} = useTranslation();
     return (
         <div className="company_s2">
             <div className="current-container">
@@ -16,12 +18,10 @@ const CompanyS2 = () => {
                             <div className="company_s2_img">
                                 <img src={img1} alt=""/>
                                 <div className="company_s2_opacity"></div>
-                                <h1> Безупречное Качество</h1>
+                                <h3>{t("company.company_s2.i1.t")}</h3>
                             </div>
                             <div className="company_s2_text">
-                                <p>От выбора сырья до финишной обработки, каждый этап производства проходит строжайший
-                                    контроль, гарантируя превосходные характеристики и долговечность готовой
-                                    продукции.</p>
+                                <p>{t("company.company_s2.i1.d")}</p>
                             </div>
                         </div>
                     </div>
@@ -30,12 +30,10 @@ const CompanyS2 = () => {
                             <div className="company_s2_img">
                                 <img src={img2} alt=""/>
                                 <div className="company_s2_opacity"></div>
-                                <h1>Современные Технологии</h1>
+                                <h3>{t("company.company_s2.i2.t")}</h3>
                             </div>
                             <div className="company_s2_text">
-                                <p>Мы постоянно инвестируем в передовое оборудование и инновационные процессы, что
-                                    позволяет нам эффективно масштабировать производство, повышать его точность и
-                                    предлагать рынку актуальные решения.</p>
+                                <p>{t("company.company_s2.i2.d")}</p>
                             </div>
                         </div>
                     </div>
@@ -46,11 +44,10 @@ const CompanyS2 = () => {
                             <div className="company_s2_img">
                                 <img src={img3} alt=""/>
                                 <div className="company_s2_opacity"></div>
-                                <h1>Профессионализм и Опыт</h1>
+                                <h3>{t("company.company_s2.i3.t")}</h3>
                             </div>
                             <div className="company_s2_text">
-                                <p>Команда "YUSTEX" – это высококвалифицированные специалисты, объединенные общей целью
-                                    и глубоким пониманием всех тонкостей текстильного производства.</p>
+                                <p>{t("company.company_s2.i3.d")}</p>
                             </div>
                         </div>
                     </div>
@@ -59,12 +56,10 @@ const CompanyS2 = () => {
                             <div className="company_s2_img">
                                 <img src={img4} alt=""/>
                                 <div className="company_s2_opacity"></div>
-                                <h1> Гибкость и Ориентация на Клиента</h1>
+                                <h3>{t("company.company_s2.i4.t")}</h3>
                             </div>
                             <div className="company_s2_text">
-                                <p>Мы оперативно реагируем на рыночные тенденции и потребности наших партнеров,
-                                    предлагая широкий ассортимент трикотажной продукции, отвечающей самым разнообразным
-                                    запросам. </p>
+                                <p>{t("company.company_s2.i4.d")}</p>
                             </div>
                         </div>
                     </div>

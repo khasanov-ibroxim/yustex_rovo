@@ -100,7 +100,7 @@ const Contact = () => {
                 <div className="company_header_opacity"></div>
                 <div className="company_header_box">
                     <div className="company_header_title">
-                        <h1>Контакты</h1>
+                        <h1>{t("contact.header")}</h1>
                     </div>
                 </div>
 
@@ -124,7 +124,7 @@ const Contact = () => {
                                 <PlaceIcon/>
                             </div>
                             <h3>{t("contact.contact_box.address.title")}</h3>
-                            <a href={"https://maps.app.goo.gl/FGq9FtTpnym5ezr36"}>г.Ташкент , Мирзо-Улугбекский район, МФУ Чингильды, улица Милий Бог</a>
+                            <a href={"https://maps.app.goo.gl/FGq9FtTpnym5ezr36"}>{t("footer.i1")}</a>
                         </div>
                     </div>
                     <div data-aos="fade-up" className="col-lg-3">

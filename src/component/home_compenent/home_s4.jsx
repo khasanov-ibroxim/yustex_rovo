@@ -8,35 +8,34 @@ import h_2 from "@/assets/home/h_s4/DEW05904.jpg";
 import h_3 from "@/assets/home/h_s4/DEW05960.jpg";
 import h_4 from "@/assets/home/h_s4/DEW06420.jpg";
 import {PRODUCT} from "@/utils/consts.jsx";
+import {useTranslation} from "react-i18next";
 
-const steps = [
-    {
-        id: 1,
-        title: "Гарантируем качество",
-        description: "Мы даём полную гарантию на добросовестное и качественное выполнение ваших заказов.",
-    },
-    {
-        id: 2,
-        title: "Производим сами",
-        description:
-            "Всё изготавливается на нашем собственном производстве. Работаем по современным технологиям и стандартам.",
-    },
-    {
-        id: 3,
-        title: "Команда профессионалов",
-        description:
-            "Наши специалисты — это опыт, точность и ответственность. Каждый этап производства контролируется экспертами.",
-    },
-    {
-        id: 4,
-        title: "Индивидуальный подход",
-        description:
-            "Выполним заказ по вашим техзаданиям или предложим готовую коллекцию. Работаем гибко и с учётом всех пожеланий.",
-    },
-];
 
 const HomeS4 = () => {
+    const {t} = useTranslation();
     const [currentStep, setCurrentStep] = useState(1);
+    const steps = [
+        {
+            id: 1,
+            title: t("home.home_steps.i1.t"),
+            description: t("home.home_steps.i1.d"),
+        },
+        {
+            id: 2,
+            title: t("home.home_steps.i2.t"),
+            description:t("home.home_steps.i2.d"),
+        },
+        {
+            id: 3,
+            title: t("home.home_steps.i3.t"),
+            description:t("home.home_steps.i3.d"),
+        },
+        {
+            id: 4,
+            title: t("home.home_steps.i4.t"),
+            description:t("home.home_steps.i4.d"),
+        },
+    ];
     const [progressWidths, setProgressWidths] = useState(Array(steps.length).fill(0));
     const [imageLoaded, setImageLoaded] = useState(false);
 
@@ -75,10 +74,10 @@ const HomeS4 = () => {
     return (
         <section className="current-container" style={{ marginTop: "140px", marginBottom: "100px" }}>
             <div className="home_s1_top_left" style={{ marginBottom: "40px" }}>
-                <span> Почему выбирают нас</span>
-                <h2>Качество, надёжность и индивидуальный подход — всё в одном месте</h2>
+                <span>{t("home.home_steps.subtitle")}</span>
+                <h2>{t("home.home_steps.title")}</h2>
                 <Link to={PRODUCT} style={{ color: "black", textDecoration: "none", fontWeight: "600" }}>
-                    Перейти к продукции <ArrowForwardIcon style={{ marginLeft: "10px" }} />
+                    {t("home.home_steps.link")} <ArrowForwardIcon style={{ marginLeft: "10px" }} />
                 </Link>
             </div>
 

@@ -6,11 +6,15 @@ import Production_s2 from "@/component/production_component/production_s2.jsx";
 import Production_s3 from "@/component/production_component/production_s3.jsx";
 import Production_s4 from "@/component/production_component/production_s4.jsx";
 import Footer_form from "@/component/footer_form/footer_form.jsx";
+import {Helmet} from "react-helmet";
 
 
 const Production = () => {
     return (
         <div style={{position:"relative" , background:"white" , marginBottom:"100vh" , paddingBottom:"100px"}}>
+            <Helmet>
+                <link rel="canonical" href="https://yustex.uz/production"/>
+            </Helmet>
             <ProductionHeader/>
 
             <Production_s2/>

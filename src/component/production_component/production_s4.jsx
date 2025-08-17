@@ -6,15 +6,15 @@ import {Home_s2_db} from "@/component/home_compenent/home_db/home_s2_db.jsx";
 import {Link} from "react-router-dom";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import {Production_s4_db} from "@/component/production_component/production_db/production_db.jsx";
+import {useTranslation} from "react-i18next";
 
 const ProductionS4 = () => {
     const swiperRef = useRef(null); // Swiper uchun ref
-
+    const {t} = useTranslation();
     return (
         <section style={{position:"relative"}} className={"current-container"}>
             <div className="home_s2_box"style={{padding:"0 40px"}} >
-                <h1>Стиль, комфорт и надёжность — <br/> в каждой вещи!</h1>
-
+                <h2 dangerouslySetInnerHTML={{__html:t("production.production_s4")}}></h2>
             </div>
             <div className="custom-nav" data-aos="fade-up" style={{top:"12%"}}>
                 <button
