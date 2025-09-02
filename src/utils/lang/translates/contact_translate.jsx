@@ -43,5 +43,26 @@ export const contact_translate = {
             msg: "Message",
             send: "Send"
         }
-    }
+    },
+    uz: {
+        header: "Aloqalar",
+        contact_box: {
+            address: {
+                title: "Do‘kon manzili",
+                content: `Toshkent shahri, Mirzo Ulug‘bek tumani, MFY Chingildi, Milliy Bog‘ ko‘chasi`,
+            },
+            tell: "Telefon",
+            instagram: "Instagram",
+            telegram: "Telegram"
+        },
+
+        form_box: {
+            title: "Biz bilan bog‘laning",
+            name: "Ism",
+            tell: "Telefon",
+            msg: "Xabar",
+            send: "Yuborish"
+        }
+
+    },
 }

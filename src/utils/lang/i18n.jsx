@@ -131,6 +131,62 @@ i18n
                     }
                 }
             },
+
+            uz: {
+                translation: {
+                    home: home_translate.uz,
+                    company: company_translate.uz,
+                    contact: contact_translate.uz,
+                    product: product_translate.uz,
+                    production: production_translate.uz,
+                    brand: brand_translate.uz,
+                    navbar: {
+                        home: "Bosh sahifa",
+                        company: "Kompaniya haqida",
+                        brand: "Brend",
+                        production: "Ishlab chiqarish",
+                        product: "Mahsulotlar",
+                        vacancy: "Bo‘sh ish o‘rinlari",
+                        contact: "Aloqa"
+                    },
+                    footer_form: {
+                        h3: "Qiziqyapsizmi?",
+                        p: `Bu faqat boshlanishi. Mato tanlash bo‘yicha maslahatlar, dizayn g‘oyalari, mahsulotlarimiz namunalari va bosma jarayonining ichki tafsilotlari — bularning barchasini bizning xabarnomamizda topasiz. Obuna bo‘ling va uslubli hamda sifatli kiyim-kechak olamiga yaqinroq bo‘ling.`,
+                        placeholder: "Telefon",
+                        send: "Yuborish"
+                    },
+                    footer:{
+                        i1:"Toshkent shahri, Mirzo Ulug‘bek tumani, MFY Chingildi, Milliy Bog‘ ko‘chasi",
+                        i2:{
+                            title:"Menyu",
+                            l1:"Bosh sahifa",
+                            l2:"Ishlab chiqarish",
+                            l3:"Mahsulotlar"
+                        },
+                        i3:{
+                            title:"Xaridorlarga",
+                            l1:"Yetkazib berish va to‘lov",
+                            l2:"Savollar"
+                        },
+                        i4:{
+                            title:"Bizni kuzating",
+                            p:"Yangiliklar va aksiyalardan xabardor bo‘ling"
+                        },
+                        i5:{
+                            title:"Biz bilan bog‘lanish",
+                            p:"Savolingizni bering yoki buyurtma qoldiring — biz har doim aloqadamiz",
+                            link:"Kontaktlar"
+                        }
+                    },
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
+                    }
+                }
+            },
         },
     });
 

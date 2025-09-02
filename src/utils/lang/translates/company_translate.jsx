@@ -81,5 +81,38 @@ export const company_translate = {
                             Our commitment to the highest standards is confirmed by prestigious international certifications: WRAP, SEDEX, and OEKO-TEX — a testament to the quality, safety, and ethical nature of our products and manufacturing processes.
                         `
         },
-    }
+    },
+    uz: {
+        company_s1:{
+            h1:"Kompaniya haqida",
+            h2:`"YUSTEX" MCHJ`,
+            p:`O‘zbekistondagi eng yorqin va jadal rivojlanayotgan to‘qimachilik korxonalaridan biri sifatida e’tirof etiladi. 2019-yildan boshlab kompaniyamiz katta yutuqlarga erishib, yuqori sifatli trikotaj kiyim ishlab chiqarishda yetakchilardan biri maqomini mustahkamladi.`
+        },
+        company_s2:{
+            i1:{
+                t:`Benuqson sifat`,
+                d:`Xom ashyoni tanlashdan tortib yakuniy ishlov berishgacha, ishlab chiqarishning har bir bosqichi qat’iy nazoratdan o‘tadi va tayyor mahsulotning yuqori xususiyatlari hamda uzoq muddatli mustahkamligini kafolatlaydi.`
+            },
+            i2:{
+                t:`Zamonaviy texnologiyalar`,
+                d:`Biz doimiy ravishda ilg‘or uskunalar va innovatsion jarayonlarga sarmoya kiritamiz. Bu esa ishlab chiqarishni samarali kengaytirish, uning aniqligini oshirish va bozorga dolzarb yechimlar taklif etish imkonini beradi.`
+            },
+            i3:{
+                t:`Professionalizm va tajriba`,
+                d:`"YUSTEX" jamoasi — bu umumiy maqsad va to‘qimachilik ishlab chiqarishining barcha nozik jihatlarini chuqur anglagan yuqori malakali mutaxassislardan iborat.`
+            },
+            i4:{
+                t:`Moslashuvchanlik va mijozga yo‘naltirilganlik`,
+                d:`Biz bozor tendensiyalari va hamkorlarimiz ehtiyojlariga tezkor javob beramiz hamda turli xil talablarni qondira oladigan keng assortimentdagi trikotaj mahsulotlarini taklif qilamiz.`
+            },
+        },
+        company_s3:{
+            h2:`Kompaniya shiori`,
+            p:`
+                            «Bizning maqsadimiz — o‘zbek to‘qimachiligini butun dunyo uchun sifat va innovatsiyalar ramziga aylantirish». <br/>
+                            YUSTEX mahsulotlari Rossiya, Yevropa va Markaziy Osiyo mamlakatlariga eksport qilinadi hamda yuqori sifat, qulaylik va noyob dizayni tufayli iste’molchilar ishonchini qozonmoqda. Kompaniyada 1000 dan ortiq xodim ishlaydi va har kuni 35 000 tagacha mahsulot ishlab chiqariladi. Mahsulotlarning xalqaro standartlarga muvofiqligini ta’minlash uchun 50 dan ortiq inspektorlar qat’iy sifat nazoratini amalga oshiradi. <br/>
+                            Bizning eng yuqori standartlarga sodiqligimiz nufuzli xalqaro sertifikatlar — WRAP, SEDEX va OEKO-TEX mavjudligi bilan tasdiqlangan. Bu esa mahsulotlarimiz va ishlab chiqarish jarayonlarining sifati, xavfsizligi va etikligini kafolatlaydi.
+                        `
+        },
+    },
 }

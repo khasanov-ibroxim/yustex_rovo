@@ -149,5 +149,77 @@ Thanks to the right temperature, pressure, and meticulous handling, garments acq
             },
         },
         production_s4:`Style, Comfort, and Reliability — <br/> in Every Garment!`
-    }
+    },
+    uz: {
+        production_header:{
+            h1:'Tikuv bo‘limi',
+            p:`Bizning tikuv bo‘limimiz — bu 25 ta zamonaviy ishlab chiqarish liniyasi bo‘lib, ularda 800 dan ortiq o‘z ishining ustalari kiyimlarni aniqlik va e’tibor bilan yaratadilar. Ishning uzluksiz va ishonchli amalga oshirilishini 40 nafar texnik qo‘llab-quvvatlash bo‘yicha professional mutaxassislar jamoasi ta’minlaydi.`,
+            link:"Batafsil"
+        },
+        production_s1:{
+            h2:"Shelkografiya bo‘limi",
+            p:`Turkiyaning Sulfet kompaniyasining ilg‘or texnologiyasi bir vaqtning o‘zida 16 tagacha rangda bosma qilish imkonini beradi. Suv asosidagi pigment bosma, plastikda bosma, baraban bosma, razgryzochnaya bosma, folga bosma, rel’efli bosma, yuqori press-shaklli bosma, aks ettiruvchi bosma, chastotali bosma, rezinada bosma, tislash bosma ishlari amalga oshiriladi.`,
+            i1:{
+                t:`Raqamli bosma`,
+                d:`Zamonaviy uskunalar aniq, yorqin va yuqori darajadagi detallarga ega tasvirlarni tushirish imkonini beradi.`
+            },
+            i2:{
+                t:`Ekologik siyohlar`,
+                d:`Biz xavfsiz, chidamli pigmentlardan foydalanamiz, ular hatto bolalar va kundalik kiyimlar uchun ham mos keladi.`
+            },
+            i3:{
+                t:`Quritishda nazorat`,
+                d:`Bosmaning yorqinligi va mustahkamligini saqlab qolish uchun quritish harorati va vaqti aniq hisoblab chiqiladi.`
+            },
+            i4:{
+                t:`Mustahkam natija`,
+                d:`Bosma rangini yo‘qotmaydi, yorilmaydi va ko‘p marta yuvilgandan keyin ham tashqi ko‘rinishini saqlab qoladi.`
+            },
+        },
+        production_s2:{
+            title:"Har bir bosqich nazorat ostida",
+            i1:{
+                h1:`Loyihalash bo‘limi`,
+                p:`Model yaratish bo‘limi to‘qimachilik sanoatida asosiy o‘rin tutadi. Bizning yuqori malakali mutaxassislarimiz mijoz talablari asosida barcha turdagi trikotaj mahsulotlarini yaratishlari mumkin. Shuningdek, ular mijozning texnik hujjatlari asosida ham to‘g‘ri ishlashni yaxshi biladilar. Bundan tashqari, jamoamiz mavsumiy kolleksiyalarni diqqat bilan kuzatadi va doimiy ravishda mijozlarimizga eng zamonaviy hamda moda mahsulotlarini taklif etishga intiladi.`,
+                btn:'Bog‘lanish'
+            },
+            i2:{
+                h1:`Qirqim bo‘limi`,
+                p:`Qirqim bo‘limi uchta eng zamonaviy texnologiya bilan jihozlangan: avtomatik qirqish mashinasi, qo‘lda qirqish va avtomatik mato yozish mashinasi. Ushbu tsexda kuniga 60 000–70 000 dona qirqim amalga oshirish quvvatiga ega matolarni qirqish ishlari olib boriladi. Bu — sifatli kiyim ishlab chiqarishdagi katta mas’uliyatdir. Mato qirqilishidan avval mutaxassislarimiz sifatni diqqat bilan nazorat qiladi va model-loyihalash bo‘limi bilan birgalikda xalqaro standartlarga muvofiq turli sinovlarni o‘tkazadi.`,
+                btn:'Mahsulotlar'
+            },
+            i3:{
+                h1:`Tikuv bo‘limi`,
+                p:`Tikuv tsexining kundalik ishlab chiqarish quvvati asosiy modellarda 60 000 dan 70 000 tagacha tayyor mahsulotni tashkil etadi. Aniqlikni nazorat qilish va samarali ish uchun malakali mutaxassislar jalb etiladi. Fabrikada faqat eng so‘nggi rusumdagi tikuv mashinalari qo‘llaniladi. Biz bolalar, erkaklar va ayollar uchun barcha turdagi trikotaj mahsulotlarini ishlab chiqaramiz — futbolkalar, polo ko‘ylaklar, bluzkalar, sport kostyumlari, shimlar, leginslar, shortiklar, yubkalar, kostyumlar, pijamalar va hokazo.`,
+                btn:'Bog‘lanish'
+            },
+            i4:{
+                h1:`Dazmollash va qadoqlash bo‘limi`,
+                p:`Dazmollash jarayoni — bu yakuniy bosqich bo‘lib, unda har bir detal benuqson ko‘rinishga ega bo‘ladi. Bu yerda zamonaviy uskunalar va aniq ishlov berish texnologiyasini mukammal egallagan professionallar ishlaydi. <br/><br/>
+To‘g‘ri harorat, bosim va aniqlik tufayli mahsulotlar taqdimotga tayyor ko‘rinishga ega bo‘ladi hamda qadoqlash yoki jo‘natishga hozirlanadi. Biz matoning har bir burmasiga ahamiyat beramiz — chunki aynan mayda tafsilotlar sifat hissini yaratadi.
+`,
+                btn:'Kontaktlar'
+            },
+        },
+        production_s3:{
+            title:"Biz sifatni qanday kafolatlaymiz?",
+            i1:{
+                t:`Ko‘p bosqichli tekshiruv`,
+                d:`Har bir mahsulot xom ashyodan tortib qadoqlashgacha bo‘lgan barcha ishlab chiqarish bosqichlarida nazoratdan o‘tadi.`
+            },
+            i2:{
+                t:`Tajribali mutaxassislar`,
+                d:`Sifatni maxsus tayyorgarlikka ega va har bir tafsilotga e’tibor beradigan tajribali nazoratchilar kuzatib boradilar.`
+            },
+            i3:{
+                t:`Zamonaviy standartlar`,
+                d:`Biz ichki reglamentlar va kiyim sifati bo‘yicha xalqaro talablarga muvofiq ishlaymiz.`
+            },
+            i4:{
+                t:`Yakuniy inspeksiya`,
+                d:`Jo‘natilishidan oldin barcha mahsulotlar o‘lcham, choklar va tashqi ko‘rinishga muvofiqligi bo‘yicha yakuniy tekshiruvdan o‘tkaziladi.`
+            },
+        },
+        production_s4:`Uslub, qulaylik va ishonchlilik — <br/> har bir kiyimda!`
+    },
 }

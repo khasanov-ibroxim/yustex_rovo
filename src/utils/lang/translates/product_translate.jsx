@@ -59,5 +59,32 @@ export const product_translate = {
             },
         },
 
-    }
+    },
+    uz: {
+        product_s1:{
+            span:"Har bir ipda tabiiylik",
+            h1:"Biz siz va tabiat uchun xavfsiz bo‘lganini tanlaymiz.",
+            p:`Ishlab chiqarishda biz 100% paxtadan foydalanamiz — nafas oluvchi, yumshoq va gipоallergen material. Bu hatto sezgir teri uchun ham mos keladigan ekologik tanlovdir. Matoning sifati standartlar bilan tasdiqlangan, qulaylik esa ilk tegishdayoq seziladi.`
+        },
+        product_s3:{
+            span:`To‘liq ishlab chiqarish jarayoni  — <br/> g‘oyadan tayyor mahsulotgacha`,
+            h2:`Brendlar bizga ishonch bildiradilar, chunki biz sifatni, muddatlarni va hamkorlikni qadrlaymiz.`,
+            i1:{
+                t:`Dizaynga individual yondashuv`,
+                d:`Dizayn ishlab chiqamiz, mato va furniturani tanlaymiz hamda har bir elementni mijoz bilan kelishamiz. Biz sizning texnik topshirig‘ingiz asosida ham, o‘z yechimlarimizni taklif qilish orqali ham ishlashimiz mumkin.`
+            },
+            i2:{
+                t:`Barqaror va yo‘lga qo‘yilgan ishlab chiqarish`,
+                d:`Tasdiqlangandan so‘ng tikuv tsexida zamonaviy texnologiyalar yordamida jarayonni boshlaymiz. Fabrikamiz 2011-yildan buyon faoliyat yuritadi va mashhur brendlar uchun mahsulot ishlab chiqaradi.`
+            },
+            i3:{
+                t:`Har bir bosqichda nazorat`,
+                d:`Sifat tikuv jarayonida ham, undan keyin ham tekshiriladi: tozalash, qadoqlash va jo‘natishga tayyorlash qat’iy nazorat ostida amalga oshiriladi. Har bir partiyaning standartlarga mosligini ta’minlash uchun ichki nazorat tizimidan foydalanamiz.`
+            },
+            i4:{
+                t:`Tajriba va ishonch`,
+                d:`Bozorda 12 yildan ortiq tajriba va MDH mamlakatlaridagi 30+ brend bilan hamkorlik — bu shunchaki raqamlar emas, balki tasdiqlangan ishonchlilikdir. Biz natijaga ishonamiz va 100% qoniqish kafolatini beramiz.`
+            },
+        },
+    },
 }
