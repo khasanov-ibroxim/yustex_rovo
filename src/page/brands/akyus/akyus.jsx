@@ -4,7 +4,8 @@ import {Akyus_db} from "@/page/brands/akyus/akyus_db.jsx";
 import {Swiper, SwiperSlide} from "swiper/react";
 import Slider_home from "@/page/brands/akyus/slide/slider_home.jsx";
 import {useTranslation} from "react-i18next";
-
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import {Link} from "react-router-dom"
 const Akyus = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null); // ✅ fixed
     const [activeCat, setActiveCat] = useState("all")
@@ -24,6 +25,7 @@ const Akyus = () => {
                 <div className="akyus_text">
                     <h1>{t("brand.akyus.h1")}</h1>
                     <p>{t("brand.akyus.p")}</p>
+                    <Link to={"https://akyus.uz/"}>Akyus.uz <ArrowForwardIcon/></Link>
                 </div>
             </div>
 

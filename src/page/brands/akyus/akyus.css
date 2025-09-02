@@ -87,6 +87,12 @@
     color: white;
     background: #000000;
 }
+.akyus_text a{
+    font-size: 25px;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 1000px){
     .akyus_text{
