@@ -205,4 +205,71 @@ bu yerda har bir tikuv sifatdan, har bir model esa o‘ziga xoslikdan dalolat be
             },
         },
     },
+    es: {
+        home_header: {
+            h1: `Calidad Perfecta <br/> Estilo Único`,
+            p: `Somos una de las fábricas líderes en la producción de prendas de algodón, <br/>
+donde cada puntada habla de calidad y cada diseño refleja individualidad.`,
+            link_1: "Enviar una solicitud",
+            link_2: "Contáctanos",
+            corusel: "Nuestros Socios"
+        },
+        home_steps: {
+            subtitle: "Por qué elegirnos?",
+            title: "Calidad, confiabilidad y un enfoque personalizado — todo en un solo lugar.",
+            link: "Ver Productos",
+            i1: {
+                t: "Garantía de Calidad",
+                d: "Ofrecemos una garantía total de cumplimiento honesto y de alta calidad en cada uno de sus pedidos."
+            },
+            i2: {
+                t: "Producción Propia",
+                d: "Todos los artículos se fabrican en nuestras propias instalaciones, utilizando tecnologías modernas y cumpliendo con los más altos estándares."
+            },
+            i3: {
+                t: "Equipo Profesional",
+                d: "Nuestros especialistas aportan experiencia, precisión y responsabilidad. Cada etapa de la producción está supervisada por expertos."
+            },
+            i4: {
+                t: "Enfoque Personalizado",
+                d: "Podemos realizar pedidos según sus especificaciones técnicas o proponerle una colección ya preparada. Trabajamos con flexibilidad, teniendo en cuenta todos sus requisitos."
+            },
+        },
+        home_s1: {
+            span: "Trabajamos con Atención a Cada Detalle",
+            h2: "Valoramos la confianza y construimos nuestras alianzas sobre la base de la calidad y la responsabilidad.",
+            p: `Utilizamos únicamente materiales comprobados y certificados que cumplen con los más altos estándares. Cada etapa —desde la selección de materias primas hasta el empaque— pasa por un estricto control de calidad. Abordamos proyectos de cualquier escala con flexibilidad y siempre mantenemos una comunicación abierta y transparente con nuestros clientes.`,
+            link: "Contáctanos",
+            ob: "Maquinaria",
+            ser: "Certificados"
+        },
+        home_s2: {
+            title: `Donde la Calidad se Encuentra  <br/> con la Individualidad`,
+            p: `Nuestros productos son una armonía de calidad y un enfoque personalizado. <br/>
+Combinamos tecnología moderna, gusto impecable y una producción responsable en cada detalle.`,
+            link_1: "Enviar una Solicitud",
+            link_2: "Contáctanos"
+        },
+        home_s3: {
+            title: "El Mundo de los Colores Pantone©",
+            subtitle: "El color refleja el carácter de tu marca.",
+            link: "Productos",
+            i1: {
+                t: "Correspondencia Precisa",
+                d: "Utilizamos la paleta Pantone© para garantizar una reproducción exacta de los colores en la impresión."
+            },
+            i2: {
+                t: "Armonía en los Detalles",
+                d: "The right color choice enhances the design’s impact and adds a professional touch."
+            },
+            i3: {
+                t: "Tendencias de la Temporada",
+                d: "We keep up with Pantone© updates and offer on-trend color solutions."
+            },
+            i4: {
+                t: "El Color como Estilo",
+                d: "Every shade can set the mood and highlight the individuality of your products."
+            },
+        },
+    },
 }

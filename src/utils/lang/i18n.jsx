@@ -131,7 +131,6 @@ i18n
                     }
                 }
             },
-
             uz: {
                 translation: {
                     home: home_translate.uz,
@@ -176,6 +175,61 @@ i18n
                             title:"Biz bilan bog‘lanish",
                             p:"Savolingizni bering yoki buyurtma qoldiring — biz har doim aloqadamiz",
                             link:"Kontaktlar"
+                        }
+                    },
+                    errors: {
+                        success: "A message has been sent, we will contact you shortly",
+                        name_empty: "Your name cannot be empty",
+                        name_error: "You typed your name incorrectly",
+                        tell_error: "Your phone number is incorrect",
+                        server_error: "A system error has occurred"
+                    }
+                }
+            },
+            es: {
+                translation: {
+                    home: home_translate.es,
+                    company: company_translate.es,
+                    contact: contact_translate.es,
+                    product: product_translate.es,
+                    production: production_translate.es,
+                    brand: brand_translate.es,
+                    navbar: {
+                        home: "home",
+                        company: "Sobre Nosotros",
+                        brand: "Marca",
+                        production: "Producción",
+                        product: "Productos",
+                        vacancy: "Carreras",
+                        contact: "Contactos"
+                    },
+                    footer_form: {
+                        h3: "¿Interesado?",
+                        p: `Esto es solo el comienzo. Consejos para elegir telas, ideas de diseño, ejemplos de nuestros productos y una mirada detrás de escena al proceso de impresión: todo lo encontrarás en nuestro boletín.`,
+                        placeholder: "Teléfono",
+                        send: "Enviar"
+                    },
+                    footer:{
+                        i1:"Tashkent, Distrito Mirzo-Ulugbek, Barrio Chingildy, C/ Milliy Bog",
+                        i2:{
+                            title:"Menú",
+                            l1:"Inicio",
+                            l2:"Producción",
+                            l3:"Productos",
+                        },
+                        i3:{
+                            title:"Para Clientes",
+                            l1:"Envío y Pago",
+                            l2:"Preguntas Frecuentes (FAQ)"
+                        },
+                        i4:{
+                            title:"Síguenos",
+                            p:"Mantente al día con las novedades y ofertas especiales."
+                        },
+                        i5:{
+                            title:"Contáctanos",
+                            p:"Haz una pregunta o realiza un pedido — siempre estamos aquí para usted",
+                            link:"Contactos"
                         }
                     },
                     errors: {

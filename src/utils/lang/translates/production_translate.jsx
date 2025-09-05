@@ -222,4 +222,76 @@ To‘g‘ri harorat, bosim va aniqlik tufayli mahsulotlar taqdimotga tayyor ko�
         },
         production_s4:`Uslub, qulaylik va ishonchlilik — <br/> har bir kiyimda!`
     },
+    es: {
+        production_header:{
+            h1:'Departamento de Confección',
+            p:`Nuestro departamento de confección cuenta con 25 líneas modernas de producción, donde más de 800 artesanos especializados crean prendas con precisión y dedicación. El funcionamiento confiable está garantizado por un equipo de 40 profesionales en soporte técnico.`,
+            link:"En Detalle"
+        },
+        production_s1:{
+            h2:"Departamento de Serigrafía",
+            p:`La tecnología avanzada de la empresa turca Sulfet permite imprimir hasta 16 colores simultáneamente. Ofrecemos: • impresión con pigmentos al agua, • impresión plástica, • impresión rotativa, • impresión discharge, • impresión con lámina (foil), • gofrado, • impresión en alto relieve, • impresión reflectante, • impresión por frecuencia, • impresión con caucho, • y grabado en bajo relieve (debossing).`,
+            i1:{
+                t:`Impresión Digital`,
+                d:`Los equipos modernos permiten aplicar imágenes nítidas, vivas y con gran nivel de detalle.`
+            },
+            i2:{
+                t:`Tintas Ecológicas`,
+                d:`Utilizamos pigmentos seguros y duraderos, adecuados incluso para la ropa infantil y de uso diario.`
+            },
+            i3:{
+                t:`Control de Secado`,
+                d:`La temperatura y el tiempo de secado se calculan con precisión para conservar la intensidad y la durabilidad de la impresión.`
+            },
+            i4:{
+                t:`Resultados Duraderos`,
+                d:`La impresión no se desvanece, no se agrieta ni pierde su apariencia incluso después de numerosos lavados.`
+            },
+        },
+        production_s2:{
+            title:"Cada Etapa Bajo Control",
+            i1:{
+                h1:`Departamento de Diseño`,
+                p:`El departamento de diseño desempeña un papel clave en la industria textil. Nuestros especialistas altamente cualificados pueden crear todo tipo de prendas de punto de acuerdo con los requisitos del cliente y trabajar de manera competente con su documentación técnica. Además, nuestro equipo sigue de cerca las colecciones de temporada y se esfuerza constantemente por ofrecer a nuestros clientes productos modernos y a la vanguardia de la moda.`,
+                btn:'Contáctanos'
+            },
+            i2:{
+                h1:`Departamento de Corte`,
+                p:`El departamento de corte está equipado con tres de las tecnologías más avanzadas: una máquina de corte automática, corte manual y una máquina automática de extendido. Este taller se encarga del corte de telas, con una capacidad de 60.000–70.000 cortes por día, y asume una gran responsabilidad en la producción de prendas de alta calidad. <br/>
+Antes de realizar el corte, nuestros especialistas supervisan cuidadosamente la calidad y llevan a cabo diversas pruebas de acuerdo con las normas internacionales, trabajando en estrecha colaboración con el departamento de diseño y patronaje.`,
+                btn:'Productos'
+            },
+            i3:{
+                h1:`Departamento de Confección`,
+                p:`La producción diaria del taller de confección para modelos básicos oscila entre 60.000 y 70.000 prendas terminadas. Contamos con especialistas cualificados que garantizan un estricto control de calidad y un funcionamiento eficiente. La fábrica está equipada exclusivamente con los modelos más recientes de máquinas de coser. Producimos todo tipo de prendas de punto para niños, hombres y mujeres: camisetas, polos, blusas, chándales, pantalones, leggings, shorts, faldas, trajes, pijamas y mucho más.`,
+                btn:'Contáctanos'
+            },
+            i4:{
+                h1:`Departamento de Planchado y Empaque`,
+                p:`La sección de planchado es la etapa final, donde cada detalle alcanza un aspecto impecable. Aquí, nuestros profesionales operan equipos modernos y aplican técnicas de acabado precisas. Gracias a la temperatura adecuada, la presión correcta y un manejo minucioso, las prendas adquieren una apariencia presentable y quedan listas para su empaque o envío. Prestamos atención a cada pliegue de la tela —porque son los pequeños detalles los que crean la sensación de calidad.`,
+                btn:'Contactos'
+            },
+        },
+        production_s3:{
+            title:"¿Cómo Garantizamos la Calidad?",
+            i1:{
+                t:`Inspección Multinivel`,
+                d:`Cada prenda pasa por un control de calidad en todas las etapas de producción — desde las materias primas hasta el empaque.`
+            },
+            i2:{
+                t:`Especialistas Capacitados`,
+                d:`La calidad está garantizada por inspectores experimentados, con formación especializada y una gran atención al detalle.`
+            },
+            i3:{
+                t:`Estándares Modernos`,
+                d:`Operamos de acuerdo con reglamentos internos y con los requisitos internacionales de calidad en la confección.`
+            },
+            i4:{
+                t:`Inspección Final`,
+                d:`Antes del envío, todos los productos pasan por una revisión exhaustiva de tallas, costuras y apariencia general.`
+            },
+        },
+        production_s4:`¡Estilo, Comodidad y Confianza — <br/> en Cada Prenda!`
+    },
+
 }

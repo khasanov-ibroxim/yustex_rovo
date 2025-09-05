@@ -22,4 +22,11 @@ export const brand_translate = {
             p:`2024-yilda sotuvga chiqarilgan u kattalar uchun nafis trikotaj yechimlarni va bolalar uchun qulay ko‘rinishni taklif etadi. Uning falsafasi - "Hayotning har bir daqiqasida sizga hamroh bo'ladigan kiyim". AKYUS moda tendentsiyalarini klassik uslub bilan uyg'unlashtiradi, faqat tabiiy paxtadan foydalanadi va ekologik toza ishlab chiqarish tamoyillariga amal qiladi.`
         },
     },
+    es: {
+        akyus:{
+            h1:`AKYUS`,
+            p:`lanzada en 2024, ofrece soluciones elegantes en prendas de punto para adultos y looks cómodos para niños. Su filosofía es: «Ropa que te acompaña en cada momento de la vida».
+AKYUS combina las tendencias de la moda con el estilo clásico, utiliza únicamente algodón natural y se rige por los principios de una producción ecológica.`
+        },
+    },
 }

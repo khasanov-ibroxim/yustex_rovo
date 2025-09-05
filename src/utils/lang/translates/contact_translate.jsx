@@ -4,9 +4,7 @@ export const contact_translate = {
         contact_box: {
             address: {
                 title: "Адрес магазина",
-                content: `г.Ташкент, улица Батыра Закирова 7
-                            Торговый центр "Tashkent City Mall"
-                            ориентир метро "Пахтакор"`,
+                content: `г.Ташкент, Мирзо Улугбекский район, МФЙ Чингильди, улица Миллий Бог`,
             },
             tell: "Телефон",
             instagram: "Инстаграм",
@@ -27,9 +25,7 @@ export const contact_translate = {
         contact_box: {
             address: {
                 title: "Store Address",
-                content: `7 Batyr Zakirov Street, Tashkent
-                           Tashkent City Mall
-                           Landmark: “Pakhtakor” metro station`,
+                content: `Tashkent city, Mirzo Ulugbek district, Chingildi MFY, Milliy Bog street`,
             },
             tell: "Phone",
             instagram: "Instagram",
@@ -64,5 +60,25 @@ export const contact_translate = {
             send: "Yuborish"
         }
 
+    },
+    es: {
+        header: "Contactos",
+        contact_box: {
+            address: {
+                title: "Dirección de la Tienda",
+                content: `Tashkent, Distrito Mirzo-Ulugbek, Barrio Chingildy, C/ Milliy Bog`,
+            },
+            tell: "Teléfono",
+            instagram: "Instagram",
+            telegram: "Telegram"
+        },
+
+        form_box: {
+            title: "Contáctanos",
+            name: "Nombre",
+            tell: "Teléfono",
+            msg: "Correo electrónico",
+            send: "Mensaje"
+        }
     },
 }

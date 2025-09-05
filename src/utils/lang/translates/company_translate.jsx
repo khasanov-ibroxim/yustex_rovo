@@ -115,4 +115,37 @@ export const company_translate = {
                         `
         },
     },
+    es: {
+        company_s1:{
+            h1:"Sobre la Empresa",
+            h2:`LLC YUSTEX`,
+            p:`es reconocida como una de las empresas textiles más destacadas y de más rápido crecimiento en Uzbekistán. Desde 2019, nuestra compañía ha logrado un notable avance, consolidándose como uno de los líderes en la producción de prendas de punto de alta calidad.`
+        },
+        company_s2:{
+            i1:{
+                t:`Calidad Impecable`,
+                d:`Desde la selección de las materias primas hasta el acabado final, cada etapa de la producción pasa por el control más estricto, garantizando características sobresalientes y una durabilidad prolongada de los productos terminados.`
+            },
+            i2:{
+                t:`Tecnologías Modernas`,
+                d:`Invertimos de forma continua en equipos avanzados y procesos innovadores, lo que nos permite escalar la producción de manera eficiente, aumentar la precisión y ofrecer al mercado soluciones actualizadas.`
+            },
+            i3:{
+                t:`Profesionalismo y Experiencia`,
+                d:`El equipo de YUSTEX está formado por especialistas altamente cualificados, unidos por un objetivo común y un profundo conocimiento de todas las particularidades de la producción textil.`
+            },
+            i4:{
+                t:`Flexibilidad y Orientación al Cliente `,
+                d:`Respondemos con rapidez a las tendencias del mercado y a las necesidades de nuestros socios, ofreciendo una amplia gama de prendas de punto para satisfacer las demandas más diversas.`
+            },
+        },
+        company_s3:{
+            h2:`Lema de la Empresa`,
+            p:`
+                            «Nuestro objetivo es convertir el textil uzbeko en un símbolo de calidad e innovación para todo el mundo».<br/>
+                            Los productos de YUSTEX se exportan a Rusia, Europa y los países de Asia Central, ganándose la confianza de los consumidores gracias a su alta calidad, comodidad y diseño único. La empresa cuenta con más de 1.000 empleados y produce hasta 35.000 prendas al día. El estricto control de calidad está garantizado por más de 50 inspectores, lo que asegura el cumplimiento de las normas internacionales. <br/>
+Nuestro compromiso con los más altos estándares está respaldado por prestigiosas certificaciones internacionales: WRAP, SEDEX y OEKO-TEX, que avalan la calidad, seguridad y carácter ético de nuestros productos y procesos de fabricación.
+                        `
+        },
+    },
 }

@@ -87,4 +87,32 @@ export const product_translate = {
             },
         },
     },
+    es: {
+        product_s1:{
+            span:"Naturalidad en Cada Hilo",
+            h1:"Elegimos lo que es seguro para ti y para el medio ambiente.",
+            p:`En nuestra producción utilizamos 100% algodón, un material transpirable, suave e hipoalergénico. Es una elección ecológica, adecuada incluso para las pieles más sensibles. La calidad de la tela está certificada, y la comodidad se percibe desde el primer contacto.`
+        },
+        product_s3:{
+            span:`Ciclo Completo de Producción — <br/> De la Idea al Producto Final`,
+            h2:`Las marcas confían en nosotros porque valoramos la calidad, los plazos y la asociación.`,
+            i1:{
+                t:`Enfoque de Diseño Personalizado`,
+                d:`Desarrollamos diseños, seleccionamos telas y accesorios, y coordinamos cada elemento con el cliente. Podemos trabajar según sus especificaciones o proponer nuestras propias soluciones.`
+            },
+            i2:{
+                t:`Producción Estable y Eficiente`,
+                d:`Una vez aprobados los diseños, iniciamos el proceso en el taller de confección utilizando tecnologías modernas. Nuestra fábrica opera desde 2011 y produce para marcas reconocidas.`
+            },
+            i3:{
+                t:`Control de Calidad en Cada Etapa`,
+                d:`La calidad se verifica durante y después de la confección: la limpieza, el empaque y la preparación para el envío son supervisados estrictamente. Utilizamos un sistema de control interno para garantizar que cada lote cumpla con los estándares.`
+            },
+            i4:{
+                t:`Experiencia y Confianza`,
+                d:`Más de 12 años en el mercado y la colaboración con más de 30 marcas en la CEI — no son solo cifras, sino garantía de fiabilidad. Confiamos en los resultados y ofrecemos una garantía de satisfacción del 100%.`
+            },
+        },
+
+    },
 }
